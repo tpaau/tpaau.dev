@@ -1,8 +1,18 @@
 ---
+title: tpaau
 layout: page
 permalink: /
 ---
 
-# Hell
+# LITERAL HELL
 
-This is the home page under construction :)
+***RELEASE ME FROM MY FLESH PRISON***
+
+Font test:
+  - Regular font (duh)
+  - *Italic font*
+  - **Bold font**
+  - `Mono font`
+  - **`Bold mono font`**
+
+What I'm gonna do with all these fonts???
