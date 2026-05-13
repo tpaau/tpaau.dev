@@ -1,0 +1,35 @@
+---
+permalink: /.well-known/identity.json
+---
+{
+  "subject": "https://tpaau.codeberg.page",
+  "owner": "tpaau",
+  "site": {
+    "title": "tpaau",
+    "verification": {
+      "method": "http-file",
+      "location": "https://tpaau.codeberg.page/.well-known/identity.json"
+    }
+  },
+  "profiles": [
+    {
+      "platform": "Mastodon",
+      "type": "mastodon",
+      "handle": "@tpaau17db@mastodon.social",
+      "url": "https://mastodon.social/@tpaau17db",
+      "verification": {
+        "method": "rel-me",
+        "expected": "https://tpaau.codeberg.page",
+      }
+    },
+    {
+      "platform": "GitHub",
+      "type": "github",
+      "url": "https://github.com/tpaau",
+      "verification": {
+        "method": "rel-me",
+        "expected": "https://tpaau.codeberg.page",
+      }
+    }
+  ]
+}
