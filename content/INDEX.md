@@ -9,7 +9,6 @@ permalink: /
 ***RELEASE ME FROM MY FLESH PRISON***
 
 Font test:
-  - Regular font (duh)
   - *Italic font*
   - **Bold font**
   - `Mono font`
