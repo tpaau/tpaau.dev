@@ -1,10 +1,9 @@
 ---
 title: tpaau
 layout: page
+description: tpaau's interner corner - home
 permalink: /
 ---
-
-// TODO: Ensure nothing is displayed over the navbar (like in the M3 site)
 
 # LITERAL HELL
 
@@ -13,6 +12,7 @@ permalink: /
 Font test:
   - *Italic font*
   - **Bold font**
+  - ***Bold italic font***
   - `Mono font`
   - **`Bold mono font`**
   - [This is a link](https://example.com)
@@ -26,10 +26,11 @@ block
 test
 ```
 
-
 > I am a quote
 >
-> TODO: Fix me
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+>
+> I look really good now thanks to tpaau's efforts
 
 {% include alert.html
   type="note"
