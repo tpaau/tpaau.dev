@@ -127,7 +127,7 @@ h6 {
 
 code, pre {
     border-radius: var(--radius-regular);
-    background-color: var(--surface-variant);
+    background-color: color-mix(in srgb, var(--surface-variant) 40%, var(--surface) 60%);
     color: var(--on-surface-variant);
     font-family: "Noto Mono", monospace;
     font-size: 0.875rem; /* body-medium.size */
@@ -146,7 +146,7 @@ code {
 }
 
 pre, details, details[open] summary {
-    border-color: var(--outline);
+    border-color: var(--outline-variant);
 }
 
 var {
