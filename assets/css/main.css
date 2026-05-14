@@ -126,6 +126,7 @@ h6 {
 }
 
 code, pre {
+    border-radius: var(--radius-regular);
     background-color: var(--surface-variant);
     color: var(--on-surface-variant);
     font-family: "Noto Mono", monospace;
@@ -135,14 +136,12 @@ code, pre {
 }
 
 pre {
-    border-radius: 12px;
     border: 1px solid var(--outline);
     overflow-x: auto;
     padding: 0.875rem;
 }
 
 code {
-    border-radius: 8px;
     padding: 0 2px;
 }
 
@@ -254,7 +253,7 @@ footer a, footer a:visited {
     padding: 0 0.5em;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 900px) {
     #footer-columns {
         grid-template-columns: 1fr;
     }
@@ -317,6 +316,8 @@ footer a, footer a:visited {
 
 #navbar ul li {
     border-radius: var(--radius-full);
+    /* TODO: The navbar should follow the size of this */
+    min-width: 120px;
 }
 
 #navbar ul li:hover {
@@ -412,23 +413,21 @@ button:disabled, select:disabled {
 }
 
 .error-text {
-    /* Baseline Material error color */
-    color: #b00020;
+    color: var(--error);
 }
 
 .table-container {
+    border-radius: var(--radius-regular);
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     margin: 1.5rem 0;
-    border-radius: 12px;
-    background-color: #fff;
-    border: 1px solid rgba(118, 118, 118, 0.5);
 }
 
 .table-container table {
     width: 100%;
     border-collapse: collapse;
     overflow: hidden;
+    background-color: color-mix(in srgb, var(--surface-container) 50%, var(--surface) 50%);
 }
 
 .table-container th,
@@ -436,10 +435,11 @@ button:disabled, select:disabled {
     padding: 12px 16px;
     border-bottom: 1px solid rgba(118, 118, 118, 0.5);
     border-right: 1px solid rgba(118, 118, 118, 0.5);
-    color: #241f31;
     font-size: 0.9rem;
     letter-spacing: 0.00225rem;
-    text-align: left;
+    text-align: center;
+    border-color: var(--outline-variant);
+    color: var(--on-surface);
 }
 
 .table-container th:last-child,
@@ -452,8 +452,9 @@ button:disabled, select:disabled {
 }
 
 .table-container th {
-    background-color: #f5f5f5;
-    font-weight: 600;
+    font-weight: 700;
+    color: var(--on-surface-variant);
+    background-color: color-mix(in srgb, var(--surface-variant) 60%, var(--surface) 40%);
 }
 
 .table-container td {
@@ -662,20 +663,6 @@ details[open] summary {
         color: #dae2f9 /* on secondary container */;
     }
 
-    .table-container {
-        background-color: #0c0c0c;
-        border-color: rgba(255, 255, 255, 0.12);
-    }
-
-    .table-container th,
-    .table-container td {
-        border-color: rgba(255, 255, 255, 0.12);
-        color: rgba(255, 255, 255, 0.87);
-    }
-
-    .table-container th {
-        background-color: #2c2c2e;
-    }
 }
 
 figure.arch-diagram {
