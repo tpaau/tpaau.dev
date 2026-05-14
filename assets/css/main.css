@@ -304,6 +304,8 @@ footer a, footer a:visited {
     margin: var(--spacing-regular);
     border-radius: var(--radius-full);
     filter: drop-shadow(0 0 6px var(--shadow));
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 #navbar ul {
@@ -316,7 +318,6 @@ footer a, footer a:visited {
 
 #navbar ul li {
     border-radius: var(--radius-full);
-    /* TODO: The navbar should follow the size of this */
     min-width: 120px;
 }
 
