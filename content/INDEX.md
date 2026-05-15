@@ -1,11 +1,9 @@
 ---
 title: tpaau
 layout: page
-description: tpaau's interner corner - home
+description: Hi, I'm tpaau - a self-taught polish dev. I do various open-source projects, mostly Linux-related.
 permalink: /
 ---
-
-<!-- TODO: Update the description -->
 
 # LITERAL HELL
 

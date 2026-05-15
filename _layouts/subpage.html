@@ -5,11 +5,12 @@
     <head>
         {% include meta.html content = current_page %}
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/subpage.css" | relative_url }}">
     </head>
     <body>
-        {% include header.html content = current_page %}
+        {% include backarrow.html %}
 
-        <main>
+        <main style="--navbar-height: 0;">
             {{ content | replace: '<table>', '<div class="table-container"><table>' | replace: '</table>', '</table></div>' }}
         </main>
 

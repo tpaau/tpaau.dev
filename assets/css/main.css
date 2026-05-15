@@ -126,7 +126,6 @@ h6 {
 }
 
 code, pre {
-    border-radius: var(--radius-regular);
     background-color: color-mix(in srgb, var(--surface-variant) 40%, var(--surface) 60%);
     color: var(--on-surface-variant);
     font-family: "Noto Mono", monospace;
@@ -135,14 +134,19 @@ code, pre {
     line-height: 1.25rem; /* body-medium.line-height */
 }
 
+code {
+    border-radius: var(--radius-small);
+}
+
+p code {
+    padding: 0px 4px;
+}
+
 pre {
+    border-radius: var(--radius-regular);
     border: 1px solid var(--outline);
     overflow-x: auto;
     padding: 0.875rem;
-}
-
-code {
-    padding: 0 2px;
 }
 
 pre, details, details[open] summary {
@@ -303,7 +307,7 @@ footer a, footer a:visited {
     white-space: nowrap;
     margin: var(--spacing-regular);
     border-radius: var(--radius-full);
-    filter: drop-shadow(0 0 6px var(--shadow));
+    filter: drop-shadow(0 0 4px var(--shadow));
     overflow-x: auto;
     overflow-y: hidden;
 }
