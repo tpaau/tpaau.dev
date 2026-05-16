@@ -14,11 +14,25 @@ Font test:
   - **Bold font**
   - ***Bold italic font***
   - `Mono font`
+  - *`Italic mono font`*
   - **`Bold mono font`**
-  - [This is a link](https://example.com)
-  - [This is another link](https://github.com/do-not-visit)
+  - ***`Italic bold mono font`***
+  - [This is a (visited) link](https://example.com)
+  - [This is another link](https://nonexistent.site)
+  - [`This is a (visited) mono link`](https://example.com)
+  - [`This is another mono link`](https://nonexistent.site)
 
-What I'm gonna do with all these fonts???
+# Heading 1
+# [Heading 1 link](https://example.com)
+
+## Heading 2
+## [Heading 2 link](https://example.com)
+
+### Heading 3
+### [Heading 3 link](https://example.com)
+
+#### Heading 4
+#### [Heading 4 link](https://example.com)
 
 ```
 multiline code
