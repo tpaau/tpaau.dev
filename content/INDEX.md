@@ -52,27 +52,27 @@ test
 >
 > I look really good now thanks to tpaau's efforts
 
-{% include alert.html
+{% include widgets/alert.html
   type="note"
   content="Highlights information that users should take into account, even when skimming."
 %}
 
-{% include alert.html
+{% include widgets/alert.html
   type="tip"
   content="Optional information to help a user be more successful."
 %}
 
-{% include alert.html
+{% include widgets/alert.html
   type="important"
   content="Crucial information necessary for users to succeed."
 %}
 
-{% include alert.html
+{% include widgets/alert.html
   type="warning"
   content="Critical content demanding immediate user attention due to potential risks."
 %}
 
-{% include alert.html
+{% include widgets/alert.html
   type="caution"
   content="Negative potential consequences of an action."
 %}

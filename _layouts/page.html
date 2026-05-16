@@ -6,14 +6,17 @@
         {% include meta.html content = current_page %}
         {% include theme.html %}
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        {%- if current_page == "blog" -%}
+        <link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}">
+        {%- endif -%}
     </head>
     <body>
-        {% include header.html content = current_page %}
+        {% include widgets/navbar.html content = current_page %}
 
         <main>
             {{ content | replace: '<table>', '<div class="table-container"><table>' | replace: '</table>', '</table></div>' }}
         </main>
 
-        {% include footer.html %}
+        {% include widgets/footer.html %}
     </body>
 </html>

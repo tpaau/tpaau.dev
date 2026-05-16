@@ -5,6 +5,8 @@
     --radius-regular: 16px;
     --radius-large: 24px;
     --radius-full: 1000px;
+
+    --spacing-small: 8px;
     --spacing-regular: 12px;
     --spacing-large: 16px;
 }
@@ -318,6 +320,22 @@ footer a, footer a:visited {
 
 #navbar ul li[aria-current]:hover a {
     color: var(--on-secondary-container);
+}
+
+#backarrow {
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	fill: var(--on-secondary-container);
+  	background-color: var(--secondary-container);
+  	margin: var(--spacing-regular);
+  	border-radius: var(--radius-full);
+  	filter: drop-shadow(0 0 2px var(--shadow));
+}
+
+#backarrow svg {
+		display: block;
+		padding: 0.5em;
 }
 
 button, select, option, input, select, textarea {

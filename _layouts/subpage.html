@@ -6,15 +6,14 @@
         {% include meta.html content = current_page %}
         {% include theme.html %}
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-        <link rel="stylesheet" href="{{ "/assets/css/subpage.css" | relative_url }}">
     </head>
     <body>
-        {% include backarrow.html ref="javascript:history.back()" %}
+        {% include widgets/backarrow.html ref="javascript:history.back()" %}
 
         <main style="--navbar-height: 0;">
             {{ content | replace: '<table>', '<div class="table-container"><table>' | replace: '</table>', '</table></div>' }}
         </main>
 
-        {% include footer.html %}
+        {% include widgets/footer.html %}
     </body>
 </html>
