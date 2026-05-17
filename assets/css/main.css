@@ -240,6 +240,15 @@ footer a, footer a:visited {
     margin: 0;
 }
 
+#pfp-layout img {
+    display: block;
+    left-margin: 0;
+}
+
+#pfp-layout > :first-child {
+    padding-left: 0;
+}
+
 #pfp-layout li {
     display: block;
     padding: 0 0.5em;
@@ -384,15 +393,17 @@ footer a, footer a:visited {
 }
 
 .url-button, .url-button:visited {
+    display: inline-flex;
     text-decoration: none;
+    gap: .2em;
     background-color: var(--primary);
     color: var(--on-primary);
     padding: var(--spacing-large);
     border-radius: var(--radius-full);
 }
 
-p:has(> a.url-button) {
-    margin: 32px;
+.url-button svg {
+    fill: var(--on-primary);
 }
 
 button, select, option, input, select, textarea {

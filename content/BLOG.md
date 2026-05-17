@@ -11,9 +11,9 @@ permalink: /blog
 Here you can find my long-form posts, mainly about projects I work on, my own experiences, thoughts,
 and interests.
 
-Subscribe [via RSS]({{ "/feed.xml" | relative_url }}).
-
-<a class="url-button" href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
+<div align="center">
+    <a class="url-button" href="{{ "/feed.xml" | relative_url }}">{% include widgets/material-symbols/rss_feed_FILL0_wght400_GRAD0_opsz24.svg size=22 %} Subscribe via RSS</a>
+</div>
 
 <div>
 {%- if site.posts.size > 0 -%}
