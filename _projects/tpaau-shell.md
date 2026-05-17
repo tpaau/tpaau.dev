@@ -1,8 +1,9 @@
 ---
 layout: subpage
-name: Test project
-repo: https://example.com
-description: Short description of the project in one or two sentences.
+name: tpaau/shell
+languages: QML
+repo: https://github.com/tpaau/shell
+description: Custom desktop shell made with Quickshell for Niri.
 image: /assets/icons/pfp-original.png
 image-alt: Test alt text
 ---

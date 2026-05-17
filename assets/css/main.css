@@ -118,6 +118,10 @@ pre, details, details[open] summary {
     border-color: var(--outline-variant);
 }
 
+small {
+    color: var(--on-surface-variant);
+}
+
 var {
     color: #ffb4ab;
 }
@@ -184,12 +188,17 @@ ul ul {
     margin-bottom: 0;
 }
 
+.card * {
+    margin: 0;
+}
+
 .card h3 {
     margin-bottom: var(--spacing-small);
 }
 
 .post-date {
     margin-top: 0;
+    margin-bottom: var(--spacing-small);
     color: var(--on-surface-variant);
 }
 
@@ -197,12 +206,36 @@ ul ul {
     height: var(--card-img-size);
     background-image:
         linear-gradient(to bottom,
-            transparent 20%,
+            transparent 0%,
             var(--surface-container-high) 100%
         ),
         var(--bg-image);
 
     background-size: cover;
+    margin-bottom: var(--spacing-small);
+}
+
+.card {
+    margin-bottom: 0;
+    gap: 0.3em;
+    justify-content: center;
+}
+
+.tag {
+    margin-bottom: 0;
+    gap: 0.3em;
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--secondary-container);
+    color: var(--on-surface-variant);
+    border: 1px solid var(--outline);
+    border-radius: var(--radius-small);
+    padding: 0 calc(var(--spacing-small) / 2);
+    margin: calc(var(--spacing-small) / 2);
+}
+
+.tag svg {
+    fill: var(--on-surface-variant);
 }
 
 footer {
@@ -277,6 +310,10 @@ footer a, footer a:visited {
 .footer-column li {
     display: block;
     padding: 0 0.5em;
+}
+
+.inline-list li {
+    display: inline-block;
 }
 
 @media (max-width: 900px) {

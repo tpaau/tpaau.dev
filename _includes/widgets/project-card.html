@@ -4,5 +4,22 @@
         class="card-img"
         style="--bg-image: url({{ include.image }});">
     </div>
+    <div align="center">
+        {%- for language in include.languages -%}
+            {% include widgets/common/tag.html value=language %}
+        {%- endfor -%}
+
+        {%- if include.repo contains "codeberg" -%}
+            {% include widgets/common/tag.html value="Codeberg" %}
+        {%- endif -%}
+
+        {%- if include.repo contains "github" -%}
+            {% include widgets/common/tag.html value="GitHub" %}
+        {%- endif -%}
+
+        {%- for tag in include.tags -%}
+            {% include widgets/common/tag.html value=tag %}
+        {%- endfor -%}
+    </div>
     <p>{{ include.description }}</p>
 </a>

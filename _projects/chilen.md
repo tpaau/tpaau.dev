@@ -1,8 +1,9 @@
 ---
 layout: subpage
-name: Test project 2
-repo: https://example.com
-description: Short description of the project in one or two sentences.
+name: Chilen
+languages: Rust
+repo: https://github.com/tpaau/chilen
+description: Local-only, modular music player for Linux, macOS, and Windows.
 image: /assets/icons/pfp-original.png
 image-alt: Test alt text
 ---

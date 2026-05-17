@@ -11,10 +11,11 @@ permalink: /blog
 Here you can find my long-form posts, mainly about projects I work on, my own experiences, thoughts,
 and interests.
 
-For my other content, follow me either on [Mastodon]({{ site.mastodon_url }}) or [Bluesky]({{ site.bsky_url }}).
+For my other content (mainly project updates and shitposting), follow me either on
+[Mastodon]({{ site.mastodon_url }}) or [Bluesky]({{ site.bsky_url }}).
 
 <div align="center">
-    <a class="url-button" href="{{ "/feed.xml" | relative_url }}">{% include widgets/material-symbols/rss_feed_FILL0_wght400_GRAD0_opsz24.svg size=22 %} Subscribe via RSS</a>
+    <a class="url-button" href="{{ "/feed.xml" | relative_url }}">{% include widgets/common/material-symbol.html icon="rss-feed" size=22 %} Subscribe via RSS</a>
 </div>
 
 <div>
