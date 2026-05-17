@@ -26,6 +26,6 @@ permalink: /projects
         {%- endfor -%}
     </ul>
 {%- else -%}
-<p>No projects???</p>
+<p>No projects are shown? This is a bug, please <a href="{{ site.issue_report_url }}">report it</a>.</p>
 {%- endif -%}
 </div>

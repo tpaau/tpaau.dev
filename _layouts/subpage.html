@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     </head>
     <body>
-        {% include widgets/backarrow.html ref="javascript:history.back()" %}
+        {% include widgets/common/backarrow.html ref="javascript:history.back()" %}
 
         <main style="--navbar-height: 0;">
             {{ content | replace: '<table>', '<div class="table-container"><table>' | replace: '</table>', '</table></div>' }}

@@ -2,7 +2,7 @@
     <div id="footer-columns">
         <ul id="pfp-layout">
             <li>
-                <img src="/assets/icons/pfp-original-rounded.png" alt="My profile picture" width="64" height="64">
+                {% include widgets/common/pfp.html size = 64 %}
             </li>
             <li>
                 <ul>
@@ -12,14 +12,14 @@
             </li>
         </ul>
         <ul class="footer-row">
-            <li><a href="https://github.com/tpaau">GitHub</a></li>
-            <li><a href="https://codeberg.org/tpaau">Codeberg</a></li>
-            <li><a href="https://mastodon.social/@tpaau17db">Mastodon</a></li>
-            <li><a href="https://bsky.app/profile/tpaau17db.mastodon.social.ap.brid.gy">Bluesky</a></li>
+            <li><a href="{{ site.github_url }}">GitHub</a></li>
+            <li><a href="{{ site.codeberg_url }}">Codeberg</a></li>
+            <li><a href="{{ site.mastodon_url }}">Mastodon</a></li>
+            <li><a href="{{ site.bsky_url }}">Bluesky</a></li>
         </ul>
         <ul class="footer-column">
             <li>© tpaau - <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY‑SA 4.0</a></li>
-            <li><a href="https://codeberg.org/tpaau/pages/issues/new">Report an issue</a></li>
+            <li><a href="{{ site.issue_report_url }}">Report an issue</a></li>
         </ul>
     </div>
 </footer>

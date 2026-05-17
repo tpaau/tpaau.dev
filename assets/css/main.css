@@ -139,7 +139,7 @@ main {
     width: 100%;
     box-sizing: border-box;
     overflow-wrap: break-word;
-    padding-top: var(--navbar-height);
+    padding-top: calc(var(--navbar-height) + var(--spacing-regular));
     flex: 1 0 auto;
 }
 
@@ -195,6 +195,7 @@ ul ul {
 
 .card-img {
     mask-image: linear-gradient(to bottom, black 1%, transparent 50%);
+    -webkit-mask-image: linear-gradient(to bottom, black 1%, transparent 50%);
     height: calc(var(--card-img-size) * 2);
     overflow: hidden;
     margin-bottom: calc(var(--card-img-size) * -1);
@@ -253,6 +254,10 @@ footer a, footer a:visited {
 #pfp-layout li {
     display: block;
     padding: 0 0.5em;
+}
+
+.pfp {
+    border-radius: 50%;
 }
 
 .footer-row {

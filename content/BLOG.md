@@ -34,6 +34,6 @@ and interests.
         {%- endfor -%}
     </ul>
 {%- else -%}
-<p>No posts???</p>
+<p>No posts are rendered? This is a bug, please <a href="{{ site.issue_report_url }}">report it</a>.</p>
 {%- endif -%}
 </div>
