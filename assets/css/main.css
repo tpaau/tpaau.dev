@@ -130,6 +130,23 @@ blockquote {
     margin: 1em 0;
 }
 
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    max-width: 832px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    padding-top: var(--navbar-height);
+    flex: 1 0 auto;
+}
+
+ul ul {
+    padding-left: 20px;
+}
+
 .coin-address {
     display: block;
     margin-left: auto;
@@ -186,23 +203,6 @@ blockquote {
     width: 100%;
     height: auto;
     display: block;
-}
-
-main {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    max-width: 832px;
-    min-width: 0;
-    width: 100%;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-    padding-top: var(--navbar-height);
-    flex: 1 0 auto;
-}
-
-ul ul {
-    padding-left: 20px;
 }
 
 footer {
@@ -381,6 +381,18 @@ footer a, footer a:visited {
 #backarrow svg {
 		display: block;
 		padding: 0.5em;
+}
+
+.url-button, .url-button:visited {
+    text-decoration: none;
+    background-color: var(--primary);
+    color: var(--on-primary);
+    padding: var(--spacing-large);
+    border-radius: var(--radius-full);
+}
+
+p:has(> a.url-button) {
+    margin: 32px;
 }
 
 button, select, option, input, select, textarea {

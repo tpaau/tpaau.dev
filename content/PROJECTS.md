@@ -8,4 +8,22 @@ permalink: /projects
 
 # Projects
 
-This is where I will put info about my projects once I feel like it.
+<div>
+{%- if site.projects.size > 0 -%}
+    <ul class="card-list">
+        {%- for project in site.projects -%}
+        <li>
+            {% assign url = project.url | relative_url %}
+            {% include widgets/card.html
+                title=project.title
+                summary=project.summary
+                url=url
+                image=project.image
+            %}
+        </li>
+        {%- endfor -%}
+    </ul>
+{%- else -%}
+<p>No projects???</p>
+{%- endif -%}
+</div>

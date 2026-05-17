@@ -13,6 +13,8 @@ and interests.
 
 Subscribe [via RSS]({{ "/feed.xml" | relative_url }}).
 
+<a class="url-button" href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a>
+
 <div>
 {%- if site.posts.size > 0 -%}
     <ul class="card-list">
