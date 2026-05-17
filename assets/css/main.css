@@ -1,5 +1,6 @@
 :root {
     --navbar-height: 64px;
+    --card-img-size: 128px;
 
     --radius-small: 8px;
     --radius-regular: 16px;
@@ -141,6 +142,50 @@ blockquote {
     width: 180px;
     height: 180px;
     border-radius: 16px;
+}
+
+.card-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card, .card:visited {
+    display: block;
+    text-decoration: none;
+    background-color: var(--surface-container-high);
+    color: var(--on-surface-container);
+    padding: var(--spacing-regular);
+    border-radius: var(--radius-large);
+}
+
+.card > :first-child {
+    margin-top: 0;
+}
+
+.card > :last-child {
+    margin-bottom: 0;
+}
+
+.card h3 {
+    margin-bottom: 0;
+}
+
+.post-date {
+    margin-top: var(--spacing-small);
+    color: var(--on-surface-variant);
+}
+
+.card-img {
+    mask-image: linear-gradient(to bottom, black 1%, transparent 50%);
+    height: calc(var(--card-img-size) * 2);
+    overflow: hidden;
+    margin-bottom: calc(var(--card-img-size) * -1);
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 main {

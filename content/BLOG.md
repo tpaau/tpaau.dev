@@ -15,7 +15,7 @@ Subscribe [via RSS]({{ "/feed.xml" | relative_url }}).
 
 <div>
 {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
+    <ul class="card-list">
         {%- for post in site.posts -%}
         <li>
             {% assign formatted_date = post.date | date: "%b %-d, %Y" %}
