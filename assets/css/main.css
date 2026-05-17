@@ -173,6 +173,7 @@ ul ul {
     color: var(--on-surface-container);
     padding: var(--spacing-regular);
     border-radius: var(--radius-large);
+    margin: var(--spacing-regular);
 }
 
 .card > :first-child {
@@ -184,11 +185,11 @@ ul ul {
 }
 
 .card h3 {
-    margin-bottom: 0;
+    margin-bottom: var(--spacing-small);
 }
 
 .post-date {
-    margin-top: var(--spacing-small);
+    margin-top: 0;
     color: var(--on-surface-variant);
 }
 

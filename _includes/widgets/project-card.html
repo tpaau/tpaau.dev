@@ -1,0 +1,7 @@
+<a class="card" href="{{ include.url }}">
+    <h3>{{ include.name }}</h3>
+    <div class="card-img">
+        <img src="{{ include.image }}" alt="{{ include.image-alt | default: 'The alt text is missing, please report this' }}">
+    </div>
+    <p>{{ include.description }}</p>
+</a>

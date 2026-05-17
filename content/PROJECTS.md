@@ -14,11 +14,13 @@ permalink: /projects
         {%- for project in site.projects -%}
         <li>
             {% assign url = project.url | relative_url %}
-            {% include widgets/card.html
-                title=project.title
-                summary=project.summary
+            {% include widgets/project-card.html
+                name=project.name
                 url=url
                 image=project.image
+                image-alt=project.image-alt
+                repo=project.repo
+                description=project.description
             %}
         </li>
         {%- endfor -%}

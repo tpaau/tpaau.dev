@@ -22,12 +22,13 @@ and interests.
         <li>
             {% assign formatted_date = post.date | date: "%b %-d, %Y" %}
             {% assign url = post.url | relative_url %}
-            {% include widgets/card.html
+            {% include widgets/blog-card.html
                 title=post.title
                 date=formatted_date
                 summary=post.summary
                 url=url
                 image=post.image
+                image-alt=post.image-alt
             %}
         </li>
         {%- endfor -%}
