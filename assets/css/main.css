@@ -194,10 +194,15 @@ ul ul {
 }
 
 .card-img {
-    background-image: linear-gradient(to bottom, transparent 20%, var(--surface-container-high) 50%), var(--bg-image);
-    height: calc(var(--card-img-size) * 2);
-    overflow: hidden;
-    margin-bottom: calc(var(--card-img-size) * -1);
+    height: var(--card-img-size);
+    background-image:
+        linear-gradient(to bottom,
+            transparent 20%,
+            var(--surface-container-high) 100%
+        ),
+        var(--bg-image);
+
+    background-size: cover;
 }
 
 footer {
