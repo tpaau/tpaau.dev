@@ -151,6 +151,10 @@ ul ul {
     padding-left: 20px;
 }
 
+.fill-img {
+    width: 100%;
+}
+
 .coin-address {
     display: block;
     margin-left: auto;
@@ -192,7 +196,7 @@ ul ul {
     margin: 0;
 }
 
-.card h3 {
+.card h2 {
     margin-bottom: var(--spacing-small);
 }
 

@@ -32,7 +32,6 @@ bsky_url: https://bsky.app/profile/tpaau17db.mastodon.social.ap.brid.gy
 
 issue_report_url: https://codeberg.org/tpaau/pages/issues/new
 
-# Build settings
 plugins:
   - jekyll-feed
 
