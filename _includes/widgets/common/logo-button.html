@@ -1,0 +1,6 @@
+<div>
+    <a class="logo-button" style="--bg:{{ include.bg }};--fg:{{ include.fg }};--outline:{{ include.outline }}" href="{{ include.url }}">
+		    {% include widgets/common/logo.html logo=include.logo size=38 color=include.fg %}
+  	    <p>{{ include.label }}</p>
+	  </a>
+</div>

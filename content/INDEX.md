@@ -12,9 +12,9 @@ CLI tools, desktop apps, and user interfaces. I frequently switch my focus betwe
 based on my current hyperfixation. <small>That doesn't necessarily mean I'll never finish any
 (probably).</small>
 
-I have a strong focus on security and privacy, which affects both my tool choices as well as the
-way I code and manage my projects. I believe it is my responsibility as a developer to do what I
-reasonably can to ensure that my software is secure and doesn't compromise user privacy.
+I have a strong focus on security and privacy, which affects the way I code and manage my projects.
+I believe it is my responsibility as a developer to do what I reasonably can to ensure that my
+software is secure and doesn't compromise user privacy.
 
 ## Tech Stack
 
@@ -22,16 +22,7 @@ reasonably can to ensure that my software is secure and doesn't compromise user 
 
 ## Public Profiles
 
-{% include widgets/common/logo.html logo="codeberg" size=32 %}
-{% include widgets/common/logo.html logo="bluesky" size=32 %}
-{% include widgets/common/logo.html logo="mastodon" size=32 %}
-{% include widgets/common/logo.html logo="github" size=32 %}
-
-<div align="center">
-    <ul style="list-style: none;">
-        <li><a href="{{ site.github_url }}">GitHub</a></li>
-        <li><a href="{{ site.codeberg_url }}">Codeberg</a></li>
-        <li><a href="{{ site.mastodon_url }}">Mastodon</a></li>
-        <li><a href="{{ site.bsky_url }}">Bluesky</a></li>
-    </ul>
-</div>
+{% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
+{% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
+{% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
+{% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
