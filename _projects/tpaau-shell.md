@@ -51,5 +51,5 @@ project unmaintained.
 
 <img
     class="fill-img"
-    src="{{ site.image }}"
-    alt="{{ site.image-alt }}">
+    src="{{ page.image }}"
+    alt="{{ page.image-alt }}">
