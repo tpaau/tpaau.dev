@@ -1,7 +1,6 @@
 :root {
     --navbar-height: 64px;
     --card-img-size: 128px;
-    --backarrow-size: 48px;
 
     --radius-small: 8px;
     --radius-regular: 16px;
@@ -430,36 +429,6 @@ footer a, footer a:visited {
 
 #navbar ul li[aria-current]:hover a {
     color: var(--on-secondary-container);
-}
-
-#backarrow {
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	width: var(--backarrow-size);
-  	height: var(--backarrow-size);
-  	fill: var(--on-secondary-container);
-  	background-color: var(--secondary-container);
-  	margin: var(--spacing-regular);
-  	border-radius: var(--radius-full);
-  	filter: drop-shadow(0 0 2px var(--shadow));
-}
-
-#backarrow-spacer {
-    height: var(--backarrow-size);
-}
-
-#backarrow > a {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-#backarrow svg {
-    width: calc(var(--backarrow-size) - var(--spacing-small));
-    height: calc(var(--backarrow-size) - var(--spacing-small));
 }
 
 .url-button, .url-button:visited {
