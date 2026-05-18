@@ -10,16 +10,7 @@ image-alt: Screenshot of my with the wallpaper set to art from Rain World the Wa
 
 ## tpaau/shell
 
-<table>
-    <tr>
-        <th>Languages</th>
-        <th>Repo</th>
-    </tr>
-    <tr>
-        <td>{{page.languages}}</td>
-        <td><a href="{{ page.repo }}">{{ page.repo }}</a></td>
-    </tr>
-</table>
+{% include widgets/project-table.html languages=page.languages repo=page.repo %}
 
 ---
 
