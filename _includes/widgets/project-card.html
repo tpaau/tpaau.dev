@@ -6,19 +6,19 @@
     </div>
     <div align="center">
         {%- for language in include.languages -%}
-            {% include widgets/common/tag.html value=language %}
+            {% include widgets/common/tag.html label=language icon="code-xml" %}
         {%- endfor -%}
 
         {%- if include.repo contains "codeberg" -%}
-            {% include widgets/common/tag.html value="Codeberg" %}
+            {% include widgets/common/tag.html label="Codeberg" icon="landscape" %}
         {%- endif -%}
 
         {%- if include.repo contains "github" -%}
-            {% include widgets/common/tag.html value="GitHub" %}
+            {% include widgets/common/tag.html label="GitHub" icon="commit" %}
         {%- endif -%}
 
         {%- for tag in include.tags -%}
-            {% include widgets/common/tag.html value=tag %}
+            {% include widgets/common/tag.html label=tag icon="price" %}
         {%- endfor -%}
     </div>
     <p>{{ include.description }}</p>

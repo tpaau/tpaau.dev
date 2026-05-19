@@ -1,18 +1,6 @@
 {% assign value=include.value | downcase %}
 
 <p class="tag">
-    {%- if value == "qml" -%}
-        {% assign icon="deployed-code" %}
-    {%- elsif value contains "codeberg" -%}
-        {% assign icon="landscape" %}
-    {%- elsif value contains "github" -%}
-        {% assign icon="commit" %}
-    {%- elsif value == "rust" or value == "html" -%}
-        {% assign icon="code-xml" %}
-    {%- else -%}
-        {% assign icon="sell" %}
-    {%- endif -%}
-
-    {% include widgets/common/material-symbol.html icon=icon size=22 %}
-    {{ include.value }}
+    {% include widgets/common/material-symbol.html icon=include.icon size=22 %}
+    {{ include.label }}
 </p>
