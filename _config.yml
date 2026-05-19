@@ -8,12 +8,64 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+mail: tpaau-17db@tutamail.com
 github_url: https://github.com/tpaau
 codeberg_url: https://codeberg.org/tpaau
 mastodon_url: https://mastodon.social/@tpaau17db
 bsky_url: https://bsky.app/profile/tpaau17db.mastodon.social.ap.brid.gy
-
 issue_report_url: https://codeberg.org/tpaau/pages/issues/new
+key_fingerprint: 25EC D687 A17E 5FA9 F432  2F63 33BA DC0B FFD7 4241
+publickey: |
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  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
+  =KTWi
+  -----END PGP PUBLIC KEY BLOCK-----
 
 plugins:
   - jekyll-feed

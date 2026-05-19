@@ -20,9 +20,28 @@ software is secure and doesn't compromise user privacy.
 
 ## Contact
 
-## Public Profiles
+<a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
 
-{% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
-{% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
-{% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
-{% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#ff0000" fg="#00ff00" outline="#0000ff" %}
+<code>{{ site.key_fingerprint }}</code>
+
+<button id="gpg-copy-button" data-key="{{ site.publickey | escape }}">
+    Copy public key
+</button>
+
+<script>
+    document.getElementById("gpg-copy-button").addEventListener("click", e => {
+        navigator.clipboard.writeText(e.currentTarget.dataset.key);
+    });
+</script>
+
+### Social Profiles
+<div class="profiles">
+    {% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#181820" fg="#e9e8ee" outline="#3a3a50" %}
+    {% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#151d28" icon-color="#1185fe" fg="#ffffff" outline="#263244" %}
+</div>
+
+### Code
+<div class="profiles">
+    {% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#0c1a24" fg="#d4dbdf" outline="#082437" %}
+    {% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#151b23" fg="#e9f2de" icon-color="#ffffff" outline="#3d444d" %}
+</div>

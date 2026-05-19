@@ -5,7 +5,7 @@ languages: QML
 repo: https://github.com/tpaau/shell
 description: Custom desktop shell made with Quickshell for Niri.
 image: /assets/images/projects/tpaau-shell/watcher-desktop.jpg
-image-alt: Screenshot of my with the wallpaper set to art from Rain World the Watcher depicting the Outer Rim region
+image-alt: Screenshot of my desktop with the wallpaper set to art from Rain World the Watcher depicting the Outer Rim region
 ---
 
 ## tpaau/shell
@@ -24,17 +24,21 @@ even the Quickshell community had trouble going around.
 
 Additionally, the RAM usage of Quickshell is horrible, for instance my shell uses 300MB of memory on
 average (if I disable [`hardened_malloc`](https://github.com/GrapheneOS/hardened_malloc) for it it
-drops by ~80MB), and this isn't even a skill issue! Other popular shells such as
+drops by ~80MB). This isn't even a skill issue! Other popular Quickshell-based shells such as
 [DMS](https://danklinux.com/), [Caelestia](https://github.com/caelestia-dots/shell), and
 [end-4](https://github.com/end-4/dots-hyprland) all suffer from this.
 
 Nevertheless, I still do use my shell on my own laptop, simply because it fits my workflow really
-well. I even occasionally fix bugs I encounter during normal usage. I designed it to fit to my way
-of using a computer, and so far it works fairly well for me.
+well. I even occasionally fix bugs I encounter during normal usage. I designed it for my needs, and
+it still works fairly well for me.
 
 The project died before it reached maturity - you can still use it (and it will probably work mostly
 fine on your system), but some major features are missing, and you should generally consider the
 project unmaintained.
+
+I plan on making a second shell, this time built from ground-up with Rust and a Rust-native UI
+framework. I haven't decided which one it will be yet, but so far [iced](https://iced.rs/) looks
+like a good candidate.
 
 <div align="center">
 <h3>✨ Screenshots ✨</h3>
@@ -44,3 +48,8 @@ project unmaintained.
     class="fill-img"
     src="{{ page.image }}"
     alt="{{ page.image-alt }}">
+
+<img
+    class="fill-img"
+    src="/assets/images/projects/tpaau-shell/frieren-desktop.jpg"
+    alt="Screenshot of my desktop with the wallpaper set to a fanart of Frieren">
