@@ -49,6 +49,10 @@ a:visited, a:visited code {
     color: var(--tertiary);
 }
 
+hr {
+    border: 1px solid var(--outline-variant);
+}
+
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited {
     color: var(--on-surface-variant);
 }
@@ -137,7 +141,7 @@ blockquote {
 main {
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: var(--spacing-regular);
     max-width: 832px;
     min-width: 0;
     width: 100%;
@@ -180,8 +184,7 @@ ul ul {
     padding-left: 0;
 }
 
-.card, .card:visited {
-    text-decoration: none;
+.tile, .card, .card:visited {
     background-color: var(--surface-container-high);
     color: var(--on-surface-container);
     padding: var(--spacing-regular);
@@ -189,12 +192,21 @@ ul ul {
     margin: var(--spacing-regular);
 }
 
-.card > :first-child {
+.tile {
+    box-sizing: border-box;
+    gap: var(--spacing-regular);
+}
+
+.tile > :first-child, .tile > :first-child * {
     margin-top: 0;
 }
 
-.card > :last-child {
+.tile > :last-child, .tile > :last-child * {
     margin-bottom: 0;
+}
+
+.card, .card:visited {
+    text-decoration: none;
 }
 
 .card * {
@@ -245,22 +257,6 @@ ul ul {
 
 .tag svg {
     fill: var(--on-surface-variant);
-}
-
-.logo-button, .logo-button:visited {
-    gap: 1em;
-    display: inline-flex;
-    align-items: center;
-    background: var(--bg);
-    padding: var(--spacing-small);
-    border: 1px solid var(--outline);
-    border-radius: var(--radius-regular);
-    text-decoration: none;
-    color: var(--fg);
-}
-
-.logo-button p {
-    margin: 0;
 }
 
 footer {
@@ -442,22 +438,6 @@ footer a, footer a:visited {
     color: var(--on-secondary-container);
 }
 
-#profiles {
-    display: flex;
-    gap: var(--spacing-small);
-    justify-content: center;
-}
-
-.url-button, .url-button:visited {
-    display: inline-flex;
-    text-decoration: none;
-    gap: .2em;
-}
-
-.url-button svg {
-    fill: var(--on-primary);
-}
-
 button, select, option, input, select, textarea {
     font-family: inherit;
 }
@@ -475,31 +455,25 @@ button, select, .url-button, .url-button:visited {
     cursor: pointer;
 }
 
-select {
-    appearance: none;
-    background-image: url("/assets/arrow-drop-down-light.svg");
-    background-position: right 12px center;
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    padding-right: 40px;
+.url-button, .url-button:visited {
+    display: inline-flex;
+    text-decoration: none;
+    gap: .2em;
 }
 
-.select-group {
-    display: flex;
-    flex-wrap: wrap;
+.url-button svg {
+    fill: var(--on-primary);
 }
 
-.select-group > div {
-    flex: 1;
-    flex-grow: 0;
-    min-width: 250px;
-}
-
-button:hover, select:hover, .button:hover {
+button:hover, select:hover, .url-button:hover {
     background: color-mix(in srgb, var(--surface) 10%, var(--primary) 90%);;
 }
 
-button:focus, select:focus, .button:focus {
+button:active, .url-button:active {
+    background: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%);;
+}
+
+select:focus {
     background-color: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%); /* button pressed on Android */
     box-shadow: inset 0 2px 4px -1px rgba(0 0 0 / 20%), inset 0 4px 5px 0 rgba(0 0 0 / 14%), inset 0 1px 10px 0 rgba(0 0 0 / 12%);
 }
@@ -508,13 +482,6 @@ button:disabled, select:disabled {
     background: color-mix(in srgb, var(--primary) 70%, transparent 30%);
     color: color-mix(in srgb, var(--on-primary) 70%, transparent 30%);
     cursor: not-allowed;
-}
-
-.button, .button:visited, .button:hover, .button:active {
-    text-decoration: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    line-height: 3.8rem;
 }
 
 .error-text {
