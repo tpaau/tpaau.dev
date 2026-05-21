@@ -39,6 +39,7 @@
     gap: var(--spacing-small);
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 
 .profiles * {
@@ -51,7 +52,7 @@
     align-items: center;
     background: var(--bg);
     padding: var(--spacing-small);
-    border: 1px solid var(--outline);
+    /* border: 1px solid var(--outline); */
     border-radius: var(--radius-regular);
     text-decoration: none;
     color: var(--fg);

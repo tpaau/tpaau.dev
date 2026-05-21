@@ -8,8 +8,8 @@ permalink: /
 <div id="intro" class="tile">
     {% include widgets/common/pfp.html size = 192 %}
 
-    <p>Hi, I'm tpaau - a self-taught polish dev. I do various <a href="/projects">open-source projects</a>, such as
-    CLI tools, desktop apps, and user interfaces. I frequently switch my focus between projects
+    <p>Hi, I'm tpaau - a self-taught polish dev. I do various
+    <a href="/projects">open-source projects</a>, and I frequently switch my focus between them
     based on my current hyperfixation. <small>That doesn't necessarily mean I'll never finish any
     (probably).</small>
 
@@ -28,8 +28,8 @@ permalink: /
 
 <div id="contact">
     <div class="tile">
-        <div align="center"><h3>Contact</h3></div>
-        <a class="url-button" href="mailto:{{ site.mail }}">{{ site.mail }}</a>
+        <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Contact</h3></div>
+        <a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
 
         <div><code>{{ site.key_fingerprint }}</code></div>
 
@@ -45,19 +45,15 @@ permalink: /
     </div>
     <div class="tile">
         <div align="center">
-            <h3>Public Profiles</h3>
-            <hr>
-            <p>Code</p>
-            <div class="profiles">
-                {% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#151b23" fg="#e9f2de" icon-color="#ffffff" outline="#3d444d" %}
-                {% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#0c1a24" fg="#d4dbdf" outline="#082437" %}
-            </div>
-            <hr>
-            <p>Social</p>
-            <div class="profiles">
-                {% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#181820" fg="#e9e8ee" outline="#3a3a50" %}
-                {% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#151d28" icon-color="#1185fe" fg="#ffffff" outline="#263244" %}
-            </div>
+            <h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3>
+        </div>
+        <div class="profiles" style="margin-bottom:calc(var(--spacing-small)/2);">
+            {% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#151b23" fg="#e9f2de" icon-color="#ffffff" outline="#3d444d" %}
+            {% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#0c1a24" fg="#d4dbdf" outline="#082437" %}
+        </div>
+        <div class="profiles">
+            {% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#181820" fg="#e9e8ee" outline="#3a3a50" %}
+            {% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#151d28" icon-color="#1185fe" fg="#ffffff" outline="#263244" %}
         </div>
     </div>
 </div>
