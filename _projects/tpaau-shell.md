@@ -51,5 +51,15 @@ like a good candidate.
 
 <img
     class="fill-img"
+    src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg"
+    alt="Screenshot of the app launcher">
+
+<img
+    class="fill-img"
+    src="/assets/images/projects/tpaau-shell/watcher-battery-menu.jpg"
+    alt="Desktop screenshot with the bar battery menu opened">
+
+<img
+    class="fill-img"
     src="/assets/images/projects/tpaau-shell/frieren-desktop.jpg"
     alt="Screenshot of my desktop with the wallpaper set to a fanart of Frieren">
