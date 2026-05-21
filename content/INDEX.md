@@ -47,13 +47,11 @@ permalink: /
         <div align="center">
             <h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3>
         </div>
-        <div class="profiles" style="margin-bottom:calc(var(--spacing-small)/2);">
-            {% include widgets/common/logo-button.html url=site.github_url logo="github" label="GitHub" bg="#151b23" fg="#e9f2de" icon-color="#ffffff" outline="#3d444d" %}
-            {% include widgets/common/logo-button.html url=site.codeberg_url logo="codeberg" label="Codeberg" bg="#0c1a24" fg="#d4dbdf" outline="#082437" %}
-        </div>
         <div class="profiles">
-            {% include widgets/common/logo-button.html url=site.mastodon_url logo="mastodon" label="Mastodon" bg="#181820" fg="#e9e8ee" outline="#3a3a50" %}
-            {% include widgets/common/logo-button.html url=site.bsky_url logo="bluesky" label="Bluesky" bg="#151d28" icon-color="#1185fe" fg="#ffffff" outline="#263244" %}
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
         </div>
     </div>
 </div>

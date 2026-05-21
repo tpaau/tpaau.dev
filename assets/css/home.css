@@ -36,6 +36,7 @@
 }
 
 .profiles {
+    display: flex;
     gap: var(--spacing-small);
     justify-content: center;
     align-items: center;
@@ -61,6 +62,24 @@
 .logo-button p {
     margin: 0;
 }
+
+.test-button {
+    display: inline-block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-small);
+    border-radius: var(--radius-regular);
+}
+
+.test-button svg {
+    fill: var(--on-primary);
+   
+}
+
 
 /* Main max width + regular spacing */
 @media (max-width: 848px) {
