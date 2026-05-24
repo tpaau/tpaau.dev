@@ -234,6 +234,7 @@ ul ul {
 
     background-size: cover;
     margin-bottom: var(--spacing-small);
+    border-radius: var(--radius-regular);
 }
 
 .card {

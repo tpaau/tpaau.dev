@@ -11,28 +11,23 @@
 }
 
 #tech-stack {
-    width: calc(var(--main-width) - var(--spacing-regular));
-    margin: var(--spacing-regular) 0;
-}
-
-#contact {
     width: 100%;
     display: flex;
     align-items: stretch;
     gap: var(--spacing-regular);
 }
 
-#contact > :first-child, #contact > :last-child {
+#tech-stack > * {
     margin: 0;
-    flex: 1 1 0%;
+    width: 50%;
+    justify-content: center;
 }
 
-#contact > :first-child {
-    flex: 1 1 0;
-}
-
-#contact > :last-child {
-    flex: 0 1 auto;
+#languages-grid, #tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-small);
+    justify-content: center;
 }
 
 .profiles {
@@ -45,22 +40,6 @@
 
 .profiles * {
     justify-self: center;
-}
-
-.logo-button, .logo-button:visited {
-    gap: 1em;
-    display: inline-flex;
-    align-items: center;
-    background: var(--bg);
-    padding: var(--spacing-small);
-    /* border: 1px solid var(--outline); */
-    border-radius: var(--radius-regular);
-    text-decoration: none;
-    color: var(--fg);
-}
-
-.logo-button p {
-    margin: 0;
 }
 
 .test-button {
@@ -80,18 +59,17 @@
    
 }
 
-
 /* Main max width + regular spacing */
 @media (max-width: 848px) {
      #intro {
         grid-template-columns: initial;
     }
 
-    #contact {
+    #tech-stack {
         flex-direction: column;
     }
-    #contact > * {
-        flex: 0 0 auto;
+
+    #tech-stack > * {
         width: 100%;
     }
 }
