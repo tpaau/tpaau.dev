@@ -58,16 +58,6 @@ permalink: /
     </div>
 </div>
 
-<div align="center">
-    <h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3>
-</div>
-<div class="profiles">
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
-</div>
-
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Contact</h3></div>
 <a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
 
@@ -82,3 +72,15 @@ permalink: /
         navigator.clipboard.writeText(e.currentTarget.dataset.key);
     });
 </script>
+
+<div align="center">
+    <h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3>
+</div>
+<div class="profiles">
+    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
+    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
+    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+</div>
+
+<div align="center"><h3 style="margin-bottom:var(--spacing-small);">Interests</h3></div>
