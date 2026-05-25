@@ -1,0 +1,9 @@
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".copy-button").forEach(btn => {
+            btn.addEventListener("click", e => {
+    		        navigator.clipboard.writeText(e.currentTarget.dataset.key);
+    		    });
+    	  });
+    });
+</script>

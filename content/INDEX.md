@@ -19,6 +19,8 @@ permalink: /
 
 <div align="center"><h2>Tech Stack</h2></div>
 
+Tools and languages I'm skilled with.
+
 <div id="tech-stack">
     <div id="tools" class="tile">
         <div align="center"><h3>Tools</h3></div>
@@ -59,28 +61,27 @@ permalink: /
 </div>
 
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Contact</h3></div>
-<a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
 
-<div><code>{{ site.key_fingerprint }}</code></div>
-
-<button id="gpg-copy-button" data-key="{{ site.publickey | escape }}">
-    Copy public key
-</button>
-
-<script>
-    document.getElementById("gpg-copy-button").addEventListener("click", e => {
-        navigator.clipboard.writeText(e.currentTarget.dataset.key);
-    });
-</script>
-
-<div align="center">
-    <h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3>
-</div>
-<div class="profiles">
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
-    <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+<div class="tile" id="contact-tile">
+    <div>
+        <a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
+        <div class="profiles">
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+        </div>
+        <div><code>{{ site.key_fingerprint }}</code></div>
+    </div>
+    <div>
+        {% include widgets/common/code-with-cp.html content=site.publickey %}
+    </div>
 </div>
 
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Interests</h3></div>
+
+<div align="center"><h3 style="margin-bottom:var(--spacing-small);">About This Site</h3></div>
+This site uses only first-party resources and doesn't use any cookies. It's a static HTML site built
+with [Jekyll](https://jekyllrb.com/) and licensed under
+[CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code can be found
+[here]({{ site.repo_url }}).

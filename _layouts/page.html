@@ -9,6 +9,7 @@
         {% if current_page == "" %}
             <link rel="stylesheet" href="{{ "/assets/css/home.css" | relative_url }}">
         {% endif %}
+        {% include script.html %}
     </head>
     <body>
         {% include widgets/navbar.html content = current_page %}
