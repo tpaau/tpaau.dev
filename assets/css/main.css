@@ -122,6 +122,16 @@ pre, details, details[open] summary {
     border-color: var(--outline-variant);
 }
 
+.code-with-copy {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: var(--spacing-small);
+}
+
+.code-with-copy button {
+    margin: 0;
+}
+
 small {
     color: var(--on-surface-variant);
 }
@@ -341,7 +351,7 @@ footer a, footer a:visited {
 @media (max-width: 832px) {
     #footer-columns {
         grid-template-columns: 1fr;
-    gap: var(--spacing-large);
+        gap: var(--spacing-large);
     }
 
     #pfp-layout {
