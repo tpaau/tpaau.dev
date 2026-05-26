@@ -66,10 +66,10 @@ Tools and languages I'm skilled with.
     <div>
         <a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
         <div class="profiles">
-            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
-            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
-            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
-            <a href="{{ site.mastodon_url }}" class="test-button">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+            <a href="{{ site.mastodon_url }}" class="icon-button primary" aria-label="Mastodon profile URL">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
+            <a href="{{ site.bsky_url }}" class="icon-button primary" aria-label="Bluesky profile URL">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+            <a href="{{ site.codeberg_url }}" class="icon-button primary" aria-label="Codeberg profile URL">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
+            <a href="{{ site.github_url }}" class="icon-button primary" aria-label="GitHub profile URL">{% include widgets/common/logo.html logo="github" size=48 %}</a>
         </div>
         <div><code>{{ site.key_fingerprint }}</code></div>
     </div>

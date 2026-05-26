@@ -45,21 +45,29 @@
     margin: 0;
 }
 
-.test-button {
+.icon-button {
     display: inline-block;
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: var(--spacing-small);
     border-radius: var(--radius-regular);
+    background: var(--primary);
+    color: var(--on-primary);
 }
 
-.test-button svg {
+.icon-button:hover {
+    background: color-mix(in srgb, var(--surface) 10%, var(--primary) 90%);;
+}
+
+.icon-button:active {
+    background: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%);;
+}
+
+.icon-button.primary svg {
     fill: var(--on-primary);
-   
 }
 
 /* Main max width + regular spacing */

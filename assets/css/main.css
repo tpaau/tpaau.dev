@@ -130,6 +130,21 @@ pre, details, details[open] summary {
 
 .code-with-copy button {
     margin: 0;
+    border-radius: var(--radius-regular);
+    padding: var(--spacing-regular);
+    display: inline-flex;
+}
+
+.code-with-copy button svg {
+    fill: var(--on-secondary-container);
+}
+
+.code-with-copy button .check-icon, .code-with-copy button.check .copy-icon {
+    display: none;
+}
+
+.code-with-copy button .copy-icon, .code-with-copy button.check .check-icon {
+    display: inline-flex;
 }
 
 small {
@@ -467,33 +482,60 @@ button, select, .url-button, .url-button:visited {
     cursor: pointer;
 }
 
+button.primary, .url-button.primary, .url-button.primary:visited {
+    background: var(--primary);
+    color: var(--on-primary);
+}
+
+button.tonal, .url-button.tonal, .url-button.tonal:visited {
+    background: var(--secondary-container);
+    color: var(--on-secondary-container);
+}
+
 .url-button, .url-button:visited {
     display: inline-flex;
     text-decoration: none;
     gap: .2em;
 }
 
-.url-button svg {
+.url-button.primary svg {
     fill: var(--on-primary);
 }
 
-button:hover, select:hover, .url-button:hover {
+.url-button.tonal svg {
+    fill: var(--on-secondary-container);
+}
+
+button.primary:hover, select:hover, .url-button.primary:hover {
     background: color-mix(in srgb, var(--surface) 10%, var(--primary) 90%);;
 }
 
-button:active, .url-button:active {
+button.tonal:hover, .url-button.tonal:hover {
+    background: color-mix(in srgb, var(--surface) 10%, var(--secondary-container) 90%);;
+}
+
+button.primary:active, .url-button.primary:active {
     background: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%);;
 }
 
+button.tonal:active, .url-button.tonal:active {
+    background: color-mix(in srgb, var(--surface) 20%, var(--secondary-container) 80%);;
+}
+
 select:focus {
-    background-color: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%); /* button pressed on Android */
+    background: color-mix(in srgb, var(--surface) 20%, var(--primary) 80%);
     box-shadow: inset 0 2px 4px -1px rgba(0 0 0 / 20%), inset 0 4px 5px 0 rgba(0 0 0 / 14%), inset 0 1px 10px 0 rgba(0 0 0 / 12%);
 }
 
-button:disabled, select:disabled {
+button.primary:disabled, select:disabled {
     background: color-mix(in srgb, var(--primary) 70%, transparent 30%);
     color: color-mix(in srgb, var(--on-primary) 70%, transparent 30%);
     cursor: not-allowed;
+}
+
+button.tonal:disabled {
+    background: color-mix(in srgb, var(--surface-container) 70%, transparent 30%);
+    color: color-mix(in srgb, var(--on-surface-container) 70%, transparent 30%);
 }
 
 .error-text {

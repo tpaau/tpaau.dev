@@ -15,7 +15,7 @@ For my other content (mainly project updates and shitposting), follow me either 
 [Mastodon]({{ site.mastodon_url }}) or [Bluesky]({{ site.bsky_url }}).
 
 <div align="center">
-    <a class="url-button" href="{{ "/feed.xml" | relative_url }}">{% include widgets/common/material-symbol.html icon="rss-feed" size=22 %} Subscribe via RSS</a>
+    <a class="url-button primary" href="{{ "/feed.xml" | relative_url }}">{% include widgets/common/material-symbol.html icon="rss-feed" size=22 %} Subscribe via RSS</a>
 </div>
 
 <div>

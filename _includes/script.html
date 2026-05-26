@@ -1,8 +1,18 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll(".copy-button").forEach(btn => {
-            btn.addEventListener("click", e => {
+        document.querySelectorAll(".copy-button").forEach(button => {
+            button.addEventListener("click", e => {
     		        navigator.clipboard.writeText(e.currentTarget.dataset.key);
+                button.classList.add("check");
+
+                if (button.dataset.timeoutId) {
+                    clearTimeout(Number(button.dataset.timeoutId));
+                }
+
+                let id = setTimeout(() => {
+                    button.classList.remove("check");
+                }, 2000);
+                button.dataset.timeoutId = String(id);
     		    });
     	  });
     });
