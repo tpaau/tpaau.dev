@@ -1,6 +1,6 @@
 ---
 title: tpaau
-layout: page
+layout: subpage
 description: This is a test page for my personal site where you can see various widgets.
 permalink: /test
 ---
@@ -41,6 +41,12 @@ multiline code
 block
 test
 ```
+
+{% include widgets/common/code-with-cp.html content="multiline
+block
+with
+copy
+" %}
 
 | Column A | Column B | Column C | Column D |
 |---|---|---|---|

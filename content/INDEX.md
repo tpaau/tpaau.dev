@@ -71,10 +71,10 @@ Tools and languages I'm skilled with.
             <a href="{{ site.codeberg_url }}" class="icon-button primary" aria-label="Codeberg profile URL">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
             <a href="{{ site.github_url }}" class="icon-button primary" aria-label="GitHub profile URL">{% include widgets/common/logo.html logo="github" size=48 %}</a>
         </div>
-        <div><code>{{ site.key_fingerprint }}</code></div>
-    </div>
-    <div>
-        {% include widgets/common/code-with-cp.html content=site.publickey %}
+        <div id="pubkey-div">
+            <button class="copy-button primary" data-key="{{ site.publickey | escape }}">Copy public key</button>
+            {% include widgets/common/code-with-cp.html content=site.key_fingerprint %}
+        </div>
     </div>
 </div>
 

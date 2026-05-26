@@ -1,11 +1,13 @@
-<pre class="code-with-copy">
-    <code>{{ include.content }}</code>
-    <button class="copy-button tonal" aria-label="Copy code" data-key="{{ site.publickey | escape }}">
-        <div class="copy-icon">
-            {% include widgets/common/material-symbol.html icon="content-copy" size=24 %}
-        </div>
-        <div class="check-icon">
-            {% include widgets/common/material-symbol.html icon="check" size=24 %}
-        </div>
-    </button>
-</pre>
+<div class="{{ include.class }}">
+    <pre class="code-with-copy">
+        <div><code>{{ include.content }}</code></div>
+        <button class="copy-button tonal" aria-label="Copy code" data-key="{{ include.content | escape }}">
+            <div class="copy-icon">
+                {% include widgets/common/material-symbol.html icon="content-copy" size=24 %}
+            </div>
+            <div class="check-icon">
+                {% include widgets/common/material-symbol.html icon="check" size=24 %}
+            </div>
+        </button>
+    </pre>
+</div>

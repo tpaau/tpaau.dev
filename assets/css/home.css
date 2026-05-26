@@ -46,7 +46,6 @@
 }
 
 .icon-button {
-    display: inline-block;
     width: 100%;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -68,6 +67,21 @@
 
 .icon-button.primary svg {
     fill: var(--on-primary);
+}
+
+#pubkey-div {
+    display: flex;
+    gap: var(--spacing-small);
+}
+
+#pubkey-div > div {
+    width: 100%;
+}
+
+#pubkey-div > button {
+    display: inline-block;
+    white-space: nowrap;
+    padding: var(--spacing-regular);
 }
 
 /* Main max width + regular spacing */
