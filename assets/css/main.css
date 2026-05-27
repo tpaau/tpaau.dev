@@ -177,7 +177,7 @@ main {
     margin-right: auto;
     padding: var(--spacing-regular);
     max-width: 832px;
-    min-width: 0;
+    min-width: 340px;
     width: 100%;
     box-sizing: border-box;
     overflow-wrap: break-word;

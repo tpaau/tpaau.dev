@@ -60,28 +60,76 @@ Tools and languages I'm skilled with.
     </div>
 </div>
 
-<div align="center"><h3 style="margin-bottom:var(--spacing-small);">Contact</h3></div>
+<div align="center"><h2 style="margin-bottom:var(--spacing-small);">Contact</h2></div>
 
 <div class="tile" id="contact-tile">
-    <div>
-        <a href="mailto:{{ site.mail }}">{{ site.mail }}</a>
-        <div class="profiles">
-            <a href="{{ site.mastodon_url }}" class="icon-button primary" aria-label="Mastodon profile URL">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
-            <a href="{{ site.bsky_url }}" class="icon-button primary" aria-label="Bluesky profile URL">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
-            <a href="{{ site.codeberg_url }}" class="icon-button primary" aria-label="Codeberg profile URL">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
-            <a href="{{ site.github_url }}" class="icon-button primary" aria-label="GitHub profile URL">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+    <div id="contact-text">
+        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but you can also use Polish. Let's chat!</p>
+    </div>
+    <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3></div>
+    <div class="profiles">
+        <a href="{{ site.mastodon_url }}" class="icon-button primary" aria-label="Mastodon profile URL">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
+        <a href="{{ site.bsky_url }}" class="icon-button primary" aria-label="Bluesky profile URL">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+        <a href="{{ site.codeberg_url }}" class="icon-button primary" aria-label="Codeberg profile URL">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
+        <a href="{{ site.github_url }}" class="icon-button primary" aria-label="GitHub profile URL">{% include widgets/common/logo.html logo="github" size=48 %}</a>
+    </div>
+    <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Key</h3></div>
+    <div id="pubkey-div">
+        <button class="copy-button primary" data-key="{{ site.publickey | escape }}">Copy public key</button>
+        {% include widgets/common/code-with-cp.html content=site.key_fingerprint %}
+    </div>
+</div>
+
+<div align="center"><h2 style="margin-bottom:var(--spacing-small);">Interests</h2></div>
+My interests. Apart from, you know, coding and the like.
+
+<!-- TODO: horizontal gap between items in `interests-list` is larger then the vertical gap when `interests-div` is too large -->
+<div id="interests-div">
+    <div class="tile">
+        <div align="center"><h4>Games</h4></div>
+        <div class="interests-list">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <div id="pubkey-div">
-            <button class="copy-button primary" data-key="{{ site.publickey | escape }}">Copy public key</button>
-            {% include widgets/common/code-with-cp.html content=site.key_fingerprint %}
+    </div>
+    <div class="tile">
+        <div align="center"><h4>Anime</h4></div>
+        <div class="interests-list">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="tile">
+        <div align="center"><h4>Movies</h4></div>
+        <div class="interests-list">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="tile">
+        <div align="center"><h4>Music</h4></div>
+        <div class="interests-list">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 </div>
 
-<div align="center"><h3 style="margin-bottom:var(--spacing-small);">Interests</h3></div>
-
-<div align="center"><h3 style="margin-bottom:var(--spacing-small);">About This Site</h3></div>
+<div align="center"><h2 style="margin-bottom:var(--spacing-small);">About This Site</h2></div>
 This site uses only first-party resources and doesn't use any cookies. It's built with
 [Jekyll](https://jekyllrb.com/) and licensed under
 [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code can be found
 [here]({{ site.repo_url }}).
+
+<div align="center"><h3 style="margin-bottom:var(--spacing-small);">Credit</h3></div>
+- [Jekyll](https://jekyllrb.com/)
+- [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ take inspiration from their CSS
+- [micr0.dev](https://micr0.dev/#contact) for homepage widget ideas
