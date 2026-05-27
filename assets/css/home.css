@@ -70,6 +70,7 @@
 }
 
 #pubkey-div {
+    margin-top: var(--spacing-regular);
     display: flex;
     gap: var(--spacing-small);
 }

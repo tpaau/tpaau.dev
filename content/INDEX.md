@@ -81,7 +81,7 @@ Tools and languages I'm skilled with.
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Interests</h3></div>
 
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">About This Site</h3></div>
-This site uses only first-party resources and doesn't use any cookies. It's a static HTML site built
-with [Jekyll](https://jekyllrb.com/) and licensed under
+This site uses only first-party resources and doesn't use any cookies. It's built with
+[Jekyll](https://jekyllrb.com/) and licensed under
 [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code can be found
 [here]({{ site.repo_url }}).
