@@ -88,37 +88,85 @@ My interests. Apart from, you know, coding and the like.
     <div class="tile">
         <div align="center"><h4>Games</h4></div>
         <div class="interests-list">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <a>
+                <img src="/assets/images/interests/games/silksong.png">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
         </div>
     </div>
     <div class="tile">
         <div align="center"><h4>Anime</h4></div>
         <div class="interests-list">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
         </div>
     </div>
     <div class="tile">
         <div align="center"><h4>Movies</h4></div>
         <div class="interests-list">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
         </div>
     </div>
     <div class="tile">
         <div align="center"><h4>Music</h4></div>
         <div class="interests-list">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
+            <a>
+                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
+                <small>Test</small>
+            </a>
         </div>
     </div>
 </div>

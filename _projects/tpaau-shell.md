@@ -1,5 +1,6 @@
 ---
 layout: subpage
+title: tpaau/shell
 name: tpaau/shell
 languages: QML
 repo: https://github.com/tpaau/shell
@@ -22,7 +23,7 @@ I recently ceased working on it, mainly because I got bored with Quickshell and 
 I was moving forward by developing the project. I would often find Qt bugs, quirks, and limitation
 even the Quickshell community had trouble going around.
 
-Additionally, the RAM usage of Quickshell is horrible, for instance my shell uses 300MB of memory on
+Additionally, the RAM usage of Quickshell is horrible. My shell for instance uses 300MB of memory on
 average (if I disable [`hardened_malloc`](https://github.com/GrapheneOS/hardened_malloc) for it it
 drops by ~80MB). This isn't even a skill issue! Other popular Quickshell-based shells such as
 [DMS](https://danklinux.com/), [Caelestia](https://github.com/caelestia-dots/shell), and
@@ -30,13 +31,13 @@ drops by ~80MB). This isn't even a skill issue! Other popular Quickshell-based s
 
 Nevertheless, I still do use my shell on my own laptop, simply because it fits my workflow really
 well. I even occasionally fix bugs I encounter during normal usage. I designed it for my needs, and
-it still works fairly well for me.
+so far it still does a fairly good job at doing that.
 
 The project died before it reached maturity - you can still use it (and it will probably work mostly
-fine on your system), but some major features are missing, and you should generally consider the
-project unmaintained.
+fine), but some major features are missing, and you should generally consider the project
+unmaintained.
 
-I plan on making a second shell, this time built from ground-up with Rust and a Rust-native UI
+I plan on making a second shell, this time built from the ground-up with Rust and a Rust-native UI
 framework. I haven't decided which one it will be yet, but so far [iced](https://iced.rs/) looks
 like a good candidate.
 

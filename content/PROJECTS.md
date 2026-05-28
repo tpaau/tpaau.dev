@@ -11,7 +11,7 @@ permalink: /projects
 Here you can find my open-source projects that I'm particularly proud of. Little tools made for
 myself or not yet public projects won't show up here.
 
-Click on an entry that looks interesting to you, and you will be provided with a summary
+Click on an entry that looks interesting to you, and you will be provided with a summary,
 screenshots, examples, and links to original sources!
 
 <div>
