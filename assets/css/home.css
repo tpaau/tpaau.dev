@@ -101,14 +101,12 @@
 #interests-div {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: var(--spacing-regular);
-    /* justify-content: center; */
+    gap: var(--spacing-large);
+    justify-content: center;
 }
 
 #interests-div > * {
     margin: 0;
-    justify-content: center;
-    flex: 0 0 calc(100% / 3);
 }
 
 .interests-list {
@@ -119,10 +117,8 @@
 }
 
 .interests-list * {
-    display: block;
-    width: 80px;
-    height: 80px;
-    justify-self: center;
+    width: 100px;
+    height: 100px;
     background: #ff0000;
 }
 
