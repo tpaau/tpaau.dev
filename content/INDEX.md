@@ -2,6 +2,7 @@
 title: tpaau
 layout: page
 description: Hi, I'm tpaau - a self-taught polish dev. Here you can learn about myself, my interests, and my various projects!
+interest-image-size: 110px
 permalink: /
 ---
 
@@ -83,26 +84,25 @@ Tools and languages I'm skilled with.
 <div align="center"><h2 style="margin-bottom:var(--spacing-small);">Interests</h2></div>
 My interests. Apart from, you know, coding and the like.
 
-<!-- TODO: horizontal gap between items in `interests-list` is larger then the vertical gap when `interests-div` is too large -->
 <div id="interests-div">
     <div class="tile">
         <div align="center"><h4>Games</h4></div>
         <div class="interests-list">
             <a>
-                <img src="/assets/images/interests/games/silksong.png">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/rainworld.jpg">
+                <small>Rain World</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/silksong.jpg">
+                <small>Silksong</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/terraria.jpg">
+                <small>Terraria</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/subnautica.jpg">
+                <small>Subnautica 2</small>
             </a>
         </div>
     </div>
@@ -110,20 +110,20 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Anime</h4></div>
         <div class="interests-list">
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/frieren.jpg">
+                <small>Frieren</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/86.jpg">
+                <small>Eighty-Six</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/bocchi.jpg">
+                <small>Bocchi the Rock!</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/chainsaw-man.jpg">
+                <small>Chainsaw Man</small>
             </a>
         </div>
     </div>
@@ -131,20 +131,20 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Movies</h4></div>
         <div class="interests-list">
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/interstellar.jpg">
+                <small>Interstellar</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/hail-mary.jpg">
+                <small>Project Hail Mary</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/dune.jpg">
+                <small>Dune</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/blade-runner.jpg">
+                <small>Blade Runner</small>
             </a>
         </div>
     </div>
@@ -152,20 +152,20 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Music</h4></div>
         <div class="interests-list">
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/lxve-txwn.jpg">
+                <small>LXVE TXWN</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/silksong-ost.jpg">
+                <small>Silksong OST</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/speaking-systems.jpg">
+                <small>SpeakingSystems</small>
             </a>
             <a>
-                <img src="/assets/images/projects/tpaau-shell/watcher-launcher.jpg">
-                <small>Test</small>
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/empty-dreams.jpg">
+                <small>EMPTY DREAMS</small>
             </a>
         </div>
     </div>

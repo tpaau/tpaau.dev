@@ -74,3 +74,10 @@ plugins:
 collections:
   projects:
     output: true
+
+exclude:
+  - assets/images/interests/compress.sh
+  - assets/images/interests/anime/original/
+  - assets/images/interests/games/original/
+  - assets/images/interests/movies/original/
+  - assets/images/interests/music/original/
