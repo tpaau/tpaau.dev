@@ -89,19 +89,19 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Games</h4></div>
         <div class="interests-list">
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/rainworld.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/rainworld.webp">
                 <small>Rain World</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/silksong.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/silksong.webp">
                 <small>Silksong</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/terraria.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/terraria.webp">
                 <small>Terraria</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/subnautica.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/subnautica.webp">
                 <small>Subnautica 2</small>
             </a>
         </div>
@@ -110,19 +110,19 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Anime</h4></div>
         <div class="interests-list">
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/frieren.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/frieren.webp">
                 <small>Frieren</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/86.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/86.webp">
                 <small>Eighty-Six</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/bocchi.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/bocchi.webp">
                 <small>Bocchi the Rock!</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/chainsaw-man.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/chainsaw-man.webp">
                 <small>Chainsaw Man</small>
             </a>
         </div>
@@ -131,19 +131,19 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Movies</h4></div>
         <div class="interests-list">
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/interstellar.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/interstellar.webp">
                 <small>Interstellar</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/hail-mary.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/hail-mary.webp">
                 <small>Project Hail Mary</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/dune.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/dune.webp">
                 <small>Dune</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/blade-runner.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/blade-runner.webp">
                 <small>Blade Runner</small>
             </a>
         </div>
@@ -152,19 +152,19 @@ My interests. Apart from, you know, coding and the like.
         <div align="center"><h4>Music</h4></div>
         <div class="interests-list">
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/lxve-txwn.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/lxve-txwn.webp">
                 <small>LXVE TXWN</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/silksong-ost.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/silksong-ost.webp">
                 <small>Silksong OST</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/speaking-systems.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/speaking-systems.webp">
                 <small>SpeakingSystems</small>
             </a>
             <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/empty-dreams.jpg">
+                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/empty-dreams.webp">
                 <small>EMPTY DREAMS</small>
             </a>
         </div>
@@ -179,5 +179,5 @@ This site uses only first-party resources and doesn't use any cookies. It's buil
 
 <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Credit</h3></div>
 - [Jekyll](https://jekyllrb.com/)
-- [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ take inspiration from their CSS
+- [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ <u>take inspiration from</u> their code
 - [micr0.dev](https://micr0.dev/#contact) for homepage widget ideas

@@ -76,7 +76,7 @@ collections:
     output: true
 
 exclude:
-  - assets/images/interests/compress.sh
+  - scripts/
   - assets/images/interests/anime/original/
   - assets/images/interests/games/original/
   - assets/images/interests/movies/original/
