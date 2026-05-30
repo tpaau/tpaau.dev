@@ -105,7 +105,7 @@
     justify-content: center;
 }
 
-#interests-div > *, #interests-div > div > div > h4 {
+#interests-div > *, #interests-div > div > div > h3 {
     margin: 0;
 }
 
@@ -119,13 +119,21 @@
 
 .interests-list > a {
     display: flex;
+    gap: calc(var(--spacing-small) / 2);
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+}
+
+.interests-list > a:hover > img {
+    transform: translateY(-10px);
 }
 
 .interests-list > a > img {
     object-fit: cover;
     border-radius: var(--radius-small);
+    transition: transform 200ms ease;
+    will-change: transform;
 }
 
 /* Main max width + regular spacing */

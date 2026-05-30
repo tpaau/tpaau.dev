@@ -86,85 +86,133 @@ My interests. Apart from, you know, coding and the like.
 
 <div id="interests-div">
     <div class="tile">
-        <div align="center"><h4>Games</h4></div>
+        <div align="center"><h3>Games</h3></div>
         <div class="interests-list">
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/rainworld.webp">
+            <a href="https://store.steampowered.com/app/2857120/Rain_World_The_Watcher/">
+                <img
+                    alt="Cover art for Rain World: The Watcher"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/games/rainworld.webp">
                 <small>Rain World</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/silksong.webp">
+            <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/">
+                <img
+                    alt="Cover art for Hollow Knight: Silksong"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/games/silksong.webp">
                 <small>Silksong</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/terraria.webp">
+            <a href="https://store.steampowered.com/app/105600/Terraria/">
+                <img
+                    alt="Cover art for Terraria"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/games/terraria.webp">
                 <small>Terraria</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/games/subnautica.webp">
+            <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">
+                <img
+                    alt="Cover art for Subnautica 2"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/games/subnautica.webp">
                 <small>Subnautica 2</small>
             </a>
         </div>
     </div>
     <div class="tile">
-        <div align="center"><h4>Anime</h4></div>
+        <div align="center"><h3>Anime</h3></div>
         <div class="interests-list">
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/frieren.webp">
+            <a href="https://en.wikipedia.org/wiki/Frieren">
+                <img
+                    alt="Cover art for Frieren Season 1"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/anime/frieren.webp">
                 <small>Frieren</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/86.webp">
+            <a href="https://en.wikipedia.org/wiki/86_(novel_series)">
+                <img
+                    alt="Cover art for the 86 manga series"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/anime/86.webp">
                 <small>Eighty-Six</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/bocchi.webp">
+            <a href="https://en.wikipedia.org/wiki/Bocchi_the_Rock!">
+                <img
+                    alt="Cover art for the Bocchi the Rock! manga series"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/anime/bocchi.webp">
                 <small>Bocchi the Rock!</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/anime/chainsaw-man.webp">
+            <a href="https://en.wikipedia.org/wiki/Chainsaw_Man">
+                <img
+                    alt="Cover art for the Chainsaw Man manga series"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/anime/chainsaw-man.webp">
                 <small>Chainsaw Man</small>
             </a>
         </div>
     </div>
     <div class="tile">
-        <div align="center"><h4>Movies</h4></div>
+        <div align="center"><h3>Movies</h3></div>
         <div class="interests-list">
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/interstellar.webp">
+            <a href="https://en.wikipedia.org/wiki/Interstellar_(film)">
+                <img
+                    alt="Cover art for Interstellar"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/movies/interstellar.webp">
                 <small>Interstellar</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/hail-mary.webp">
+            <a href="https://en.wikipedia.org/wiki/Project_Hail_Mary_(film)">
+                <img
+                    alt="Cover art for Project Hail Mary"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/movies/hail-mary.webp">
                 <small>Project Hail Mary</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/dune.webp">
+            <a href="https://en.wikipedia.org/wiki/Dune_(2021_film)">
+                <img
+                    alt="Cover art for Dune: Part One"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/movies/dune.webp">
                 <small>Dune</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/movies/blade-runner.webp">
+            <a href="https://en.wikipedia.org/wiki/Blade_Runner_2049">
+                <img
+                    alt="Cover art for Blade Runner 2049"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/movies/blade-runner.webp">
                 <small>Blade Runner</small>
             </a>
         </div>
     </div>
     <div class="tile">
-        <div align="center"><h4>Music</h4></div>
+        <div align="center"><h3>Music</h3></div>
         <div class="interests-list">
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/lxve-txwn.webp">
+            <a href="https://open.spotify.com/track/1pCDWUyukLwNnDtKuDKk7j">
+                <img
+                    alt="Cover art for LXVE TXWN by CYPARISS"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/music/lxve-txwn.webp">
                 <small>LXVE TXWN</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/silksong-ost.webp">
+            <a href="https://open.spotify.com/album/2mvEK1s3lpArLiUVRkqoD5">
+                <img
+                    alt="Cover art for Hollow Knight: Silksong Original Soundtrack"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/music/silksong-ost.webp">
                 <small>Silksong OST</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/speaking-systems.webp">
+            <a href="https://open.spotify.com/track/3yn4WuknrFAKltwcVhGE0z">
+                <img
+                    alt="Cover art for Rain World: Silksong Original Soundtrack"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/music/speaking-systems.webp">
                 <small>SpeakingSystems</small>
             </a>
-            <a>
-                <img width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}" src="/assets/images/interests/music/empty-dreams.webp">
+            <a href="https://open.spotify.com/track/2HhzV3FY4eZGueF0KpXZUo">
+                <img
+                    alt="Cover art for EMPTY DREAMS by CYPARISS"
+                    width="{{ page.interest-image-size }}" height="{{ page.interest-image-size }}"
+                    src="/assets/images/interests/music/empty-dreams.webp">
                 <small>EMPTY DREAMS</small>
             </a>
         </div>

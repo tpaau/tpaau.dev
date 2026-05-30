@@ -12,12 +12,11 @@
         {% include script.html %}
     </head>
     <body>
-        {% include widgets/navbar.html content = current_page %}
-
         <main>
             {{ content | replace: '<table>', '<div class="table-container"><table>' | replace: '</table>', '</table></div>' }}
         </main>
 
         {% include widgets/footer.html %}
+        {% include widgets/navbar.html content = current_page %}
     </body>
 </html>
