@@ -14,6 +14,8 @@
 
 html {
     height: -webkit-fill-available; /* replace with stretch when standardized */
+    scroll-padding-top: calc(var(--navbar-height) + 2 * var(--spacing-regular));
+    scroll-behavior: smooth;
 }
 
 body {
