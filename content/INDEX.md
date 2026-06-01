@@ -18,8 +18,7 @@ permalink: /
     software is secure and doesn't compromise user privacy.</p>
 </div>
 
-<div align="center"><h2>Tech Stack</h2></div>
-{: #tech-stack}
+<div align="center"><h2 id="tech-stack">Tech Stack</h2></div>
 
 Tools and languages I'm skilled with.
 
@@ -31,6 +30,7 @@ Tools and languages I'm skilled with.
             <a class="logo-icon"><img alt="Neovim" src="/assets/images/tools/nvim.webp"></a>
             <a class="logo-icon"><img alt="Helix" src="/assets/images/tools/helix.svg"></a>
             <a class="logo-icon"><img alt="Qt" src="/assets/images/tools/qt.webp"></a>
+            <a class="logo-icon"><img alt="Git" src="/assets/images/tools/git.svg"></a>
         </div>
     </div>
     <div id="languages" class="tile">
@@ -44,8 +44,7 @@ Tools and languages I'm skilled with.
     </div>
 </div>
 
-<div align="center"><h2 style="margin-bottom:var(--spacing-small);">Contact</h2></div>
-{: #contact}
+<div align="center"><h2 id="contact" style="margin-bottom:var(--spacing-small);">Contact</h2></div>
 
 <div class="tile" id="contact-tile">
     <div id="contact-text">
@@ -66,8 +65,7 @@ Tools and languages I'm skilled with.
     <div align="center"><a href="/keys/tpaau.pub">Download</a></div>
 </div>
 
-<div align="center"><h2 style="margin-bottom:var(--spacing-small);">Interests</h2></div>
-{: #interests}
+<div align="center"><h2 id="interests" style="margin-bottom:var(--spacing-small);">Interests</h2></div>
 My interests. Apart from, you know, coding and the like.
 
 <div id="interests-div">
@@ -205,19 +203,16 @@ My interests. Apart from, you know, coding and the like.
     </div>
 </div>
 
-<div align="center"><h2 style="margin-bottom:var(--spacing-small);">About This Site</h2></div>
-{: #about-site}
+<div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);">About This Site</h2></div>
 This site uses only first-party resources and doesn't retain any cookies. It's built with
 [Jekyll](https://jekyllrb.com/) and licensed under
 [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code can be found
 [here]({{ site.repo_url }}).
 
-<div align="center"><h3 style="margin-bottom:var(--spacing-small);">AI Disclosure</h3></div>
-{: #ai-disclosure}
+<div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);">AI Disclosure</h3></div>
 How I use Generative AI in my work? Learn [here](/ai-disclosure).
 
-<div align="center"><h3 style="margin-bottom:var(--spacing-small);">Credit</h3></div>
-{: #credit}
+<div align="center"><h3 id="credit" style="margin-bottom:var(--spacing-small);">Credit</h3></div>
 - [Jekyll](https://jekyllrb.com/)
 - [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ <u>take inspiration from</u> their code
 - [micr0.dev](https://micr0.dev/#contact) for homepage widget ideas

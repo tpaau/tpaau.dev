@@ -28,7 +28,7 @@ For my other content (mainly project updates and shitposting), follow me either 
             {% include widgets/blog-card.html
                 title=post.title
                 date=formatted_date
-                summary=post.summary
+                summary=post.description
                 url=url
                 image=post.image
                 image-alt=post.image-alt
