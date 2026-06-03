@@ -5,6 +5,12 @@
     <!-- The "robots" metadata disallowing page indexing is manually added to the 404 page since accessing it directly returns HTTP Status Code 200 -->
     <meta name="robots" content="noindex, nofollow">
 {% endif %}
+
+{% if include.content == "" %}
+    <a rel="me" href="{{ site.mastodon_url }}"></a>
+    <a rel="me" href="{{ site.github_url }}"></a>
+{% endif %}
+
 <meta name="description" content="{{ page.description }}">
 
 <meta name="theme-color" content="#241f31">
