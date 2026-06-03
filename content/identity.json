@@ -2,13 +2,13 @@
 permalink: /.well-known/identity.json
 ---
 {
-  "subject": "https://tpaau.codeberg.page",
+  "subject": "https://tpaau.dev",
   "owner": "tpaau",
   "site": {
     "title": "tpaau",
     "verification": {
       "method": "http-file",
-      "location": "https://tpaau.codeberg.page/.well-known/identity.json"
+      "location": "https://tpaau.dev/.well-known/identity.json"
     }
   },
   "profiles": [
@@ -19,7 +19,7 @@ permalink: /.well-known/identity.json
       "url": "https://mastodon.social/@tpaau17db",
       "verification": {
         "method": "rel-me",
-        "expected": "https://tpaau.codeberg.page",
+        "expected": "https://tpaau.dev",
       }
     },
     {
@@ -28,7 +28,7 @@ permalink: /.well-known/identity.json
       "url": "https://github.com/tpaau",
       "verification": {
         "method": "rel-me",
-        "expected": "https://tpaau.codeberg.page",
+        "expected": "https://tpaau.dev",
       }
     }
   ]
