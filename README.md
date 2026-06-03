@@ -1,4 +1,4 @@
-# Pages
+# tpaau.dev
 
 This is my personal website where I put things.
 
