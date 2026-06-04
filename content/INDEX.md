@@ -204,9 +204,10 @@ My interests. Apart from, you know, coding and the like.
 </div>
 
 <div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);">About This Site</h2></div>
-This site uses only first-party resources and doesn't retain any cookies. It's built with
-[Jekyll](https://jekyllrb.com/) and licensed under
-[CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Source code can be found
+This site is built with [Jekyll](https://jekyllrb.com/) and deployed to
+[Cloudflare pages](https://pages.cloudflare.com/). Only first-party sources are used and no cookies
+are retained in your browser. Source code, licensed under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), can be found
 [here]({{ site.repo_url }}).
 
 <div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);">AI Disclosure</h3></div>

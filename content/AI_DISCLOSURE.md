@@ -1,5 +1,5 @@
 ---
-title: Gen "AI" disclosure - tpaau.dev
+title: Gen "AI" disclosure
 layout: subpage
 description: Learn how I use generative "AI" in my creative work, code, and other projects.
 permalink: /ai-disclosure
@@ -44,7 +44,7 @@ I use it.
 
 # How I Use Gen AI
 
-> **TLDR**: My use of Gen AI is mostly limited to using LLMs as coding or writing *help*.
+> **TLDR**: My use of Gen AI is mostly limited to using LLMs as coding and writing *help*.
 
 ## How I Run My Models
 
@@ -58,9 +58,8 @@ I always use LLMs in my browser or a dedicated app for running them locally, cur
 
 ## Coding Help
 
-I sometimes use LLMs for explaining errors, writing large, repetitive chunks of code, or
-creating large data structures from data formats such as JSON. I hardly ever use them to generate
-code *for* me, and this is always limited to my internal tools or sometimes small scripts.
+I occasionally use LLMs for explaining errors, writing large, repetitive chunks of code, or
+creating large data structures from data formats such as JSON.
 
 ## Writing Assistance
 
