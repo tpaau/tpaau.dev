@@ -1,4 +1,4 @@
-<meta charset="utf-8"/>
+<meta charset="utf-8">
 
 <title>{{ page.title }}</title>
 {% if include.content == "404" %}
@@ -7,8 +7,8 @@
 {% endif %}
 
 {% if include.content == "" %}
-    <a rel="me" href="{{ site.mastodon_url }}"></a>
-    <a rel="me" href="{{ site.github_url }}"></a>
+    <link rel="me" href="{{ site.mastodon_url }}"></link>
+    <link rel="me" href="{{ site.github_url }}"></link>
 {% endif %}
 
 <meta name="description" content="{{ page.description }}">
