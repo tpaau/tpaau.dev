@@ -9,7 +9,7 @@ image: /assets/images/projects/tpaau-shell/watcher-desktop.jpg
 image-alt: Screenshot of my desktop with the wallpaper set to art from Rain World the Watcher depicting the Outer Rim region
 ---
 
-## tpaau/shell
+<h1 id="{{ page.name }}"><a href="#{{ page.name }}">{{ page.name }}</a></h1>
 
 {% include widgets/project-table.html languages=page.languages repo=page.repo %}
 
@@ -41,9 +41,7 @@ I plan on making a second shell, this time built from the ground-up with Rust an
 framework. I haven't decided which one it will be yet, but so far [iced](https://iced.rs/) looks
 like a good candidate.
 
-<div align="center">
-<h3>✨ Screenshots ✨</h3>
-</div>
+<div align="center"><h2 id="screenshots"><a href="#screenshots">✨ Screenshots ✨</a></h2></div>
 
 <img
     class="fill-img"

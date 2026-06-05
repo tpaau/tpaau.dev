@@ -2,7 +2,7 @@
 title: tpaau
 layout: subpage
 description: This is a test page for my personal site where you can see various widgets.
-permalink: /test
+<!-- permalink: /test -->
 ---
 
 <small>This is a test page for displaying various widgets</small>

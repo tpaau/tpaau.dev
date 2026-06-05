@@ -8,6 +8,6 @@ image-alt: Test alt text
 tags: tag1 tag2 tag3
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 {{ page.description }}

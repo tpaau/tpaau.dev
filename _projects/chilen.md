@@ -8,9 +8,11 @@ image: /assets/images/projects/chilen/daemon.jpg
 image-alt: Screenshot of a terminal window running Chilen.
 ---
 
-<h1 id="start"><a href="#start">{{ page.name }}</a></h1>
+<h1 id="{{ page.name }}"><a href="#{{ page.name }}">{{ page.name }}</a></h1>
 
 {% include widgets/project-table.html languages=page.languages repo=page.repo %}
+
+---
 
 {{ page.description }} Built from the ground-up in Rust with native support for Linux, macOS and
 Windows.

@@ -18,7 +18,7 @@ permalink: /
     software is secure and doesn't compromise user privacy.</p>
 </div>
 
-<div align="center"><h2 id="tech-stack">Tech Stack</h2></div>
+<div align="center"><h2 id="tech-stack"><a href="#tech-stack">Tech Stack</a></h2></div>
 
 Tools and languages I'm skilled with.
 
@@ -44,7 +44,7 @@ Tools and languages I'm skilled with.
     </div>
 </div>
 
-<div align="center"><h2 id="contact" style="margin-bottom:var(--spacing-small);">Contact</h2></div>
+<div align="center"><h2 id="contact" style="margin-bottom:var(--spacing-small);"><a href="#contact">Contact</a></h2></div>
 
 <div class="tile" id="contact-tile">
     <div id="contact-text">
@@ -65,7 +65,7 @@ Tools and languages I'm skilled with.
     <div align="center"><a href="/keys/tpaau.pub">Download</a></div>
 </div>
 
-<div align="center"><h2 id="interests" style="margin-bottom:var(--spacing-small);">Interests</h2></div>
+<div align="center"><h2 id="interests" style="margin-bottom:var(--spacing-small);"><a href="#interests">Interests</a></h2></div>
 My interests. Apart from, you know, coding and the like.
 
 <div id="interests-div">
@@ -203,17 +203,17 @@ My interests. Apart from, you know, coding and the like.
     </div>
 </div>
 
-<div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);">About This Site</h2></div>
+<div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);"><a href="#about-site">About This Site</a></h2></div>
 This site is built with [Jekyll](https://jekyllrb.com/) and deployed to
 [Cloudflare pages](https://pages.cloudflare.com/). Only first-party sources are used and no cookies
 are retained in your browser. Source code, licensed under
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), can be found
 [here]({{ site.repo_url }}).
 
-<div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);">AI Disclosure</h3></div>
+<div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);"><a href="#ai-disclosure">AI Disclosure</a></h3></div>
 How I use Generative AI in my work? Learn [here](/ai-disclosure).
 
-<div align="center"><h3 id="credit" style="margin-bottom:var(--spacing-small);">Credit</h3></div>
+<div align="center"><h3 id="credit" style="margin-bottom:var(--spacing-small);"><a href="#credit">Credit</a></h3></div>
 - [Jekyll](https://jekyllrb.com/)
 - [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ <u>take inspiration from</u> their code
 - [micr0.dev](https://micr0.dev/#contact) for homepage widget ideas
