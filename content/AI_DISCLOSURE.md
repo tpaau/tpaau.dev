@@ -1,7 +1,7 @@
 ---
-title: Gen \"AI\" disclosure
+title: Gen AI disclosure
 layout: subpage
-description: Learn how I use generative \"AI\" in my creative work, code, and other projects.
+description: Learn how I use generative AI in my creative work, code, and other projects.
 permalink: /ai-disclosure
 ---
 
