@@ -211,9 +211,9 @@ are retained in your browser. Source code, licensed under
 [here]({{ site.repo_url }}).
 
 <div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);"><a href="#ai-disclosure">AI Disclosure</a></h3></div>
-How I use Generative AI in my work? Learn [here](/ai-disclosure).
+How I use the so-called Generative AI in my work? Learn [here](/ai-disclosure).
 
 <div align="center"><h3 id="credit" style="margin-bottom:var(--spacing-small);"><a href="#credit">Credit</a></h3></div>
-- [Jekyll](https://jekyllrb.com/)
+- [Jekyll](https://jekyllrb.com/) for providing a convenient way of building my static site
 - [secureblue.dev](https://secureblue.dev) for introducing me to Jekyll and letting me ~~steal~~ <u>take inspiration from</u> their code
 - [micr0.dev](https://micr0.dev/#contact) for homepage widget ideas
