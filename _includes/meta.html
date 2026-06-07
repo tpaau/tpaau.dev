@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex, nofollow">
 {% endif %}
 
-{% if include.content == "" %}
+{% if include.content == "/" %}
     <link rel="me" href="{{ site.mastodon_url }}"></link>
     <link rel="me" href="{{ site.github_url }}"></link>
 {% endif %}
@@ -27,7 +27,7 @@
 {% if page.image %}
     <meta property="og:image" content="{{ page.image | absolute_url }}">
 {% else %}
-    <meta property="og:image" content="https://site/pfp-original-rounded.png">
+    <meta property="og:image" content="{{ site.url }}/assets/icons/pfp-original-rounded.png">
 {% endif %}
 
 <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96">
