@@ -20,7 +20,7 @@ Windows.
 The works on Chilen started around December 2025, mainly because I felt like there isn't any good
 software for listening to music locally on Linux. All the players I had tried so far suffered from
 issues big enough to disrupt my listening experience - it's always stability issues, poor desktop
-integration, missing basic features, and overall bugginess.
+integration, missing basic features, and just overall bugginess.
 
 I wanted something that would *just work*, have proper desktop integration, robust features, a
 beautiful and user-friendly interface, and great performance. Cross-platform support would be a nice
@@ -38,7 +38,7 @@ inspiration from while developing Chilen. I's called
 Initially I wanted Chilen to just be a regular desktop app, but in the end I overcomplicated it all
 for the sake of modularity and code reusability.
 
-Chilen split between one binary program and two libraries:
+Chilen is split between one binary program and two libraries:
 [`chilen_daemon`](https://tpaau.github.io/chilen/chilen_daemon/) and
 [`chilen_ipc`](https://tpaau.github.io/chilen/chilen_ipc/).
 

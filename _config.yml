@@ -2,6 +2,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 title: tpaau's personal site!
+author: tpaau
 description: >-
   Hi, I'm tpaau - a self-taught polish dev, and this is my personal website! Here I infodump about
   my interests, projects and experiences.
