@@ -7,11 +7,12 @@ repo: https://github.com/tpaau/shell
 description: Custom desktop shell made with Quickshell for Niri.
 image: /assets/images/projects/tpaau-shell/watcher-desktop.jpg
 image-alt: Screenshot of my desktop with the wallpaper set to art from Rain World the Watcher depicting the Outer Rim region
+license: GPL-3.0
 ---
 
 <h1 id="{{ page.name }}"><a href="#{{ page.name }}">{{ page.name }}</a></h1>
 
-{% include widgets/project-table.html languages=page.languages repo=page.repo %}
+{% include widgets/project-table.html languages=page.languages repo=page.repo license=page.license %}
 
 ---
 
@@ -32,6 +33,11 @@ drops by ~80MB). This isn't even a skill issue! Other popular Quickshell-based s
 Nevertheless, I still do use my shell on my own laptop, simply because it fits my workflow really
 well. I even occasionally fix bugs I encounter during daily use. I designed it for my needs, and so
 far it still does a fairly good job at doing that.
+
+{% include widgets/common/alert.html
+  type="note"
+  content="<b>UPDATE</b>: I switched away from my shell in favor of <a href=\"https://danklinux.com/\">DMS</a>. Over time, Qt updates caused some things to break, and I grew tired of fixing all the bugs."
+%}
 
 The project died before it reached maturity - you can still use it (and it will probably work fine),
 but some major features are missing, and you should generally consider the project unmaintained.
