@@ -15,6 +15,11 @@ license: GPL-3.0 (program), LGPL-3.0 (libraries)
 
 ---
 
+{% include widgets/common/alert.html
+  type="warning"
+  content="This page is outdated, see <a href='/2026/07/06/chilen-devlog-1.html'>this blogpost</a> for details."
+%}
+
 {{ page.description }} Built from the ground-up in Rust with native support for Linux, macOS and
 Windows.
 
