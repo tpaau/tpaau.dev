@@ -33,6 +33,7 @@ For my other content (mainly project updates and shitposting), follow me either 
                 url=url
                 image=post.image
                 image-alt=post.image-alt
+                tags=post.tags
             %}
         </li>
         {%- endfor -%}

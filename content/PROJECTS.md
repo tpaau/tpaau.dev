@@ -8,11 +8,10 @@ permalink: /projects
 
 # Projects
 
-Here you can find my open-source projects that I'm particularly proud of. Little tools made for
-myself or not yet public projects won't show up here.
+Here you can find my projects that I'm particularly proud of. Everything listed here is free and
+open source.
 
-Click on an entry that looks interesting to you, and you will be provided with a summary,
-screenshots, examples, and links to original sources!
+Go ahead, explore!
 
 <div>
 {%- if site.projects.size > 0 -%}

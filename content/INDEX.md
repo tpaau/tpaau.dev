@@ -13,9 +13,8 @@ permalink: /
     based on my current hyperfixation. <small>That doesn't necessarily mean I'll never finish any
     (probably).</small>
     <br><br>
-    I have a strong focus on security and privacy, which affects the way I code and manage my projects.
-    I believe it is my responsibility as a developer to do what I reasonably can to ensure that my
-    software is secure and doesn't compromise user privacy.</p>
+    I'm passionate about cybersecurity and privacy, and I believe it is my responsibility as a
+    developer to do what I reasonably can to make my software is safe and private.</p>
 </div>
 
 <div align="center"><h2 id="tech-stack"><a href="#tech-stack">Tech Stack</a></h2></div>
