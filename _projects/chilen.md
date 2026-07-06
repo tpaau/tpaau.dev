@@ -6,11 +6,12 @@ repo: https://github.com/tpaau/chilen
 description: Fully offline, blazingly fast music player for your library.
 image: /assets/images/projects/chilen/daemon.jpg
 image-alt: Screenshot of a terminal window running Chilen.
+license: GPL-3.0 (program), LGPL-3.0 (libraries)
 ---
 
 <h1 id="{{ page.name }}"><a href="#{{ page.name }}">{{ page.name }}</a></h1>
 
-{% include widgets/project-table.html languages=page.languages repo=page.repo %}
+{% include widgets/project-table.html languages=page.languages repo=page.repo license=page.license %}
 
 ---
 
@@ -29,7 +30,7 @@ addition, too.
 {% include widgets/common/alert.html
   type="note"
   content="By the way, there is an excellent music player for Android that I use daily and take
-inspiration from while developing Chilen. I's called
+inspiration from while developing Chilen. It's called
 <a href=\"https://github.com/OxygenCobalt/Auxio\">Auxio</a>, and I strongly suggest you try it out!"
 %}
 
