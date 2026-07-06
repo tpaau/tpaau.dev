@@ -263,11 +263,12 @@ ul ul {
     height: var(--card-img-size);
     background-image:
         linear-gradient(to bottom,
-            transparent 0%,
+            transparent 50%,
             var(--surface-container-high) 100%
         ),
         var(--bg-image);
 
+    background-position: center;
     background-size: cover;
     margin-bottom: var(--spacing-small);
     border-radius: var(--radius-regular);

@@ -5,5 +5,10 @@
         class="card-img"
         style="--bg-image: url({{ include.image }});">
     </div>
+    <div align="center">
+        {%- for tag in include.tags -%}
+            {% include widgets/common/tag.html label=tag icon="price" %}
+        {%- endfor -%}
+    </div>
     <p>{{ include.summary }}</p>
 </a>
