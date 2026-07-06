@@ -11,8 +11,8 @@ tags: rust chilen devlog
 # {{ page.title }}
 
 If you've been following me on my [Mastodon](https://mastodon.social/@tpaau17db), or if you've read
-the [projects]({{ site.url }}/projects) page on my site, you probably know about
-[Chilen]({{ site.url }}/projects/chilen), a music player daemon I've been recently working on.
+the [projects](/projects) page on my site, you probably know about [Chilen](/projects/chilen), a
+music player daemon I've been recently working on.
 
 The story behind Chilen is that I got fed up with the state of local music players on Linux and
 decided to create my own. I started testing Chilen as a server, as it's simpler to test things
@@ -60,6 +60,6 @@ currently I'm just testing things out.
 
 If you're interested in the future development of this incredible project, consider
 [following me on Mastodon](https://m3.material.io/) or
-[subscribing to my RSS feed]({{ site.url }}/feed.xml).
+[subscribing to my RSS feed](/feed.xml).
 
 Have a wonderful day!
