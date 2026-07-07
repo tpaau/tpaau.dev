@@ -13,8 +13,6 @@ and interests.
 For my other content (mainly project updates and shitposting), follow me either on
 [Mastodon]({{ site.mastodon_url }}) or [Bluesky]({{ site.bsky_url }}).
 
-<!-- TODO: Fix the RSS feed being broken in many ways -->
-
 <div align="center">
     <a class="url-button primary" href="{{ "/feed.xml" | relative_url }}">{% include widgets/common/material-symbol.html icon="rss-feed" size=22 %} Subscribe via RSS</a>
 </div>

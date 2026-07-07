@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Fighting the daemon // Chilen devlog 1
-date: 2026-07-06 14:00:00 +0200
+date: 2026-07-07 22:00:00 +0200
 description: Mistakes were made
 image: /assets/images/blog/chilen-devlog-1/cover.png
 image-alt: Gray background with the heading "Chilen", and a freezing face emoji with headphones to the right of it. Below the heading there is a smaller and darker font that reads "I have no idea what I'm doing".
