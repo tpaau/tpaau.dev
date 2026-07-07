@@ -19,8 +19,8 @@ decided to create my own. I started testing Chilen as a server, as it's simpler 
 from the CLI, and it just kinda stayed that way. My goal shifted from a desktop app to a music
 player daemon.
 
-I got the it to a functional state where it could, well, play music - like you'd expect from a
-music player - and manage playlists in the music library. There also was the desktop integration
+I got it to a functional state where it could, well, play music - like you'd expect from a
+music player - and manage playlists in the music library. There was also the desktop integration
 with [MPRIS](https://wiki.archlinux.org/title/MPRIS) and a handful of other nice features like
 [lyrics synchronization](https://crates.io/crates/lrc_rs).
 
@@ -37,8 +37,8 @@ start thinking things over more thoroughly when starting new projects, especiall
 Chilen. 
 
 So yeah, I feel like I made a mistake by making Chilen a daemon, and I'd rather make it a desktop
-app from the start if I could turn back time. But I'm not giving up! I already have  the backend, I
-really just need to remove the remains of the daemon code and stitch a GUI to it, and I'll have a
+app from the start if I could turn back time. But I'm not giving up! I already have the backend; I
+really just need to remove the remains of the daemon code and stitch a GUI to it and I'll have a
 working player!
 
 I made it sound a bit more more trivial than it actually is, considering I still have quite a bit of
