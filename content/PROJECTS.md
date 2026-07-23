@@ -9,7 +9,7 @@ permalink: /projects
 # Projects
 
 Here you can find my projects that I'm particularly proud of. Everything listed here is free and
-open source.
+open source, forever!
 
 Go ahead, explore!
 

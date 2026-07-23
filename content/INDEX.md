@@ -205,9 +205,7 @@ My interests. Apart from, you know, coding and the like.
 <div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);"><a href="#about-site">About This Site</a></h2></div>
 This site is built with [Jekyll](https://jekyllrb.com/) and deployed to
 [Cloudflare pages](https://pages.cloudflare.com/). Only first-party sources are used and no cookies
-are retained in your browser. Source code, licensed under
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), can be found
-[here]({{ site.repo_url }}).
+are retained in your browser. Source code, can be found [here]({{ site.repo_url }}).
 
 <div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);"><a href="#ai-disclosure">AI Disclosure</a></h3></div>
 How I use the so-called Generative AI in my work? Learn [here](/ai-disclosure).
