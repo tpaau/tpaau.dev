@@ -63,6 +63,7 @@ the same reason.
 | Backend | Implement most of the features currently planned for the backend |
 | Graphical interface | Start the works on the graphical interface with [iced](https://docs.rs/iced/latest/iced/) |
 | Initial release | Release the initial version for Linux as a system package and a Flatpak |
+| Performance improvements, bug fixes | Drastically improve loading times for large libraries, fix bugs, other improvements |
 | Initial cross-platform support | Start working on a Windows and macOS port, add desktop integration for these platforms |
 | Improvements | Release the Windows and macOS ports and improve the Linux version |
 | More to come! | Robust tag editor, creating custom synced lyrics, other improvements |
