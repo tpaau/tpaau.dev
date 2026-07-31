@@ -1,20 +1,31 @@
 ---
 title: tpaau
 layout: page
-description: Hi, I'm tpaau - a self-taught polish dev. Here you can learn about myself, my interests, and my various projects!
+description: Hi, I'm tpaau - a self-taught autistic dev from Poland 👋 Here you can learn about myself, my interests, and my various projects!
 interest-image-size: 110px
 permalink: /
 ---
 
-<div id="intro" class="tile">
+<div id="intro1" class="tile">
     {% include widgets/common/pfp.html size=192 %}
-    <p>Hi, I'm tpaau - a self-taught polish dev. I do various
-    <a href="/projects">open-source projects</a>, and I frequently switch my focus between them
-    based on my current hyperfixation. <small>That doesn't necessarily mean I'll never finish any
-    (probably).</small>
-    <br><br>
-    I'm passionate about cybersecurity and privacy, and I believe it is my responsibility as a
-    developer to do what I reasonably can to make my software is safe and private.</p>
+    <div>
+        <h2>Hello</h2>
+        <p>I'm tpaau - a self-taught autistic dev from Poland! 
+        <br><br>
+        I do various <a href="/projects">projects</a>, mainly open-source, mainly in Rust, and I frequently shift my attention between them based on my current hyperfixation. <small>That doesn't necessarily mean I'll never finish any (probably).</small>
+        </p>
+    </div>
+</div>
+
+<div id="intro2" class="tile">
+    <p>Very much into stuff like information security, anime (especially Frieren), The SCP Foundation, and sometimes video games.</p>
+    <p>I'm also a little bit of an audiophile, music stimulates me when I'm working on da 'puter. I listen to genres like hip-hop, trap, soundtracks from media I like, also J-Rock and maidcore since recently.</p>
+    <ul>
+        <li>If buying isn't owning, piracy isn't theft.</li>
+        <li>GrapheneOS fan and a secureblue enthusiast.</li>
+        <li>Privacy is a human right.</li>
+        <li>Polish, English, also learning Japanese in my free time as a hobby.</li>
+    </ul>
 </div>
 
 <div align="center"><h2 id="tech-stack"><a href="#tech-stack">Tech Stack</a></h2></div>
@@ -58,7 +69,7 @@ Tools and languages I'm skilled with.
     </div>
     <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Key</h3></div>
     <div id="pubkey-div">
-        <button class="copy-button primary" data-key="{{ site.publickey | escape }}">Copy public key</button>
+        <button id="pubkey-cp-button" class="copy-button primary" data-key="{{ site.publickey | escape }}">Copy public key</button>
         {% include widgets/common/code-with-cp.html content=site.key_fingerprint %}
     </div>
     <div align="center"><a href="/keys/tpaau.pub">Download</a></div>
