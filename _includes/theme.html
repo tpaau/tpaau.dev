@@ -1,6 +1,57 @@
-<!-- TODO: This loads both stylesheets immediately, it can probably be optimized. -->
-<!-- <link rel="preload" as="style" href="{{ "/assets/css/themes/blue-moon/light.css" | relative_url }}" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/light.css" | relative_url }}" media="(prefers-color-scheme: light)">
+<noscript>
+  <!-- Fallback stuff for the ultra paranoid with JS disabled -->
+  <link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/light.css" | relative_url }}" media="(prefers-color-scheme: light)">
+  <link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/dark.css"  | relative_url }}" media="(prefers-color-scheme: dark)">
+</noscript>
 
-<!-- <link rel="preload" as="style" href="{{ "/assets/css/themes/blue-moon/dark.css" | relative_url }}" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/dark.css"  | relative_url }}" media="(prefers-color-scheme: dark)">
+
+<!-- Actual theme picking -->
+<script>
+  // Themes are randomized on a weekly basis
+  const getThemeIndex = (now, len) => {
+  	const epoch = new Date(2026, 0, 8);
+	
+  	const hash = (seed) => {
+  		let t = seed += 0x6D2B79F5;
+  		t = Math.imul(t ^ t >>> 15, t | 1);
+  		t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+  		return (t ^ t >>> 14) >>> 0;
+  	};
+
+  	let result = null;
+  	let current = new Date(epoch);
+
+  	while (current <= now) {
+  		const seed = Math.floor(current.getTime() / 604800000);
+  		const raw = hash(seed) % len;
+
+  		const final = (raw === result) ? (raw + 1) % len : raw;
+		
+  		result = final;
+  		current.setDate(current.getDate() + 7);
+  	}
+
+  	return result;
+  };
+
+
+  const themes = ["blue-moon", "lxve-txwn", "amethyst", "graphite"]
+  const now = new Date()
+  const index = getThemeIndex(now, themes.length)
+  let name = themes[index]
+  console.log(`Current theme: ${name}`)
+
+
+  const modes = {
+  	dark: '(prefers-color-scheme: dark)',
+  	light: '(prefers-color-scheme: light)'
+  }
+
+  Object.entries(modes).forEach(([mode, query]) => {
+  	const link = document.createElement('link')
+  	link.rel = 'stylesheet'
+  	link.href = `/assets/css/themes/${name}/${mode}.css`
+  	link.media = query
+  	document.head.append(link)
+  })
+</script>
