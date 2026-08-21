@@ -1,8 +1,6 @@
-<noscript>
-  <!-- Fallback stuff for the ultra paranoid with JS disabled -->
-  <link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/light.css" | relative_url }}" media="(prefers-color-scheme: light)">
-  <link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/dark.css"  | relative_url }}" media="(prefers-color-scheme: dark)">
-</noscript>
+<!-- Fallback stuff for the ultra paranoid with JS disabled -->
+<link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/light.css" | relative_url }}" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="{{ "/assets/css/themes/blue-moon/dark.css"  | relative_url }}" media="(prefers-color-scheme: dark)">
 
 
 <!-- Actual theme picking -->
@@ -38,8 +36,7 @@
   const themes = ["blue-moon", "lxve-txwn", "amethyst", "graphite"]
   const now = new Date()
   const index = getThemeIndex(now, themes.length)
-  let name = themes[index]
-  console.log(`Current theme: ${name}`)
+  const name = themes[index]
 
 
   const modes = {
