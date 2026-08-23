@@ -7,7 +7,7 @@
 <script>
   // Themes are randomized on a weekly basis
   const getThemeIndex = (now, len) => {
-  	const epoch = new Date(2026, 0, 8);
+  	const epoch = new Date(2026, 7, 17);
 	
   	const hash = (seed) => {
   		let t = seed += 0x6D2B79F5;
@@ -33,7 +33,7 @@
   };
 
 
-  const themes = ["blue-moon", "lxve-txwn", "amethyst", "graphite"]
+  const themes = ["blue-moon", "rust", "amethyst", "graphite"]
   const now = new Date()
   const index = getThemeIndex(now, themes.length)
   const name = themes[index]
