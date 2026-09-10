@@ -4,8 +4,8 @@ name: Chilen
 languages: Rust
 repo: https://github.com/tpaau/chilen
 description: Fully offline, blazingly fast music player for your library.
-image: /assets/images/projects/chilen/chilen.png
-image-alt: Screenshot of the playlist creation menu in the Chilen app
+image: /assets/images/projects/chilen/chilen.jpg
+image-alt: Screenshot of the Chilen app
 license: GPL-3.0 (program), MIT (libraries)
 ---
 
@@ -15,8 +15,13 @@ license: GPL-3.0 (program), MIT (libraries)
 
 ---
 
-{{ page.description }} Built from the ground-up in Rust with native support for Linux, macOS and
-Windows.
+
+> {{ page.description }} Built from the ground-up in Rust with native support for Linux, macOS and
+Windows.[^1]
+
+<img class="fill-img" src="{{ page.image }}" alt="{{ page.image-alt }}">
+
+---
 
 The works on Chilen started around December 2025, mainly because I felt like there isn't any good
 software for listening to music locally on Linux. All the players I had tried so far suffered from
@@ -30,7 +35,9 @@ addition, too.
   type="note"
   content="By the way, there is an excellent music player for Android that I use daily and take
 inspiration from while developing Chilen. It's called
-<a href=\"https://github.com/OxygenCobalt/Auxio\">Auxio</a>, and I strongly suggest you try it out!"
+<a href=\"https://github.com/OxygenCobalt/Auxio\">Auxio</a>, and I strongly suggest you try it out!
+<br>
+<b>EDIT</b>: <a href=\"https://github.com/sosauce/Chocola\">Chocola</a> is a good pick too!"
 %}
 
 <h2 id="architecture"><a href="#architecture">Architecture</a></h2>
@@ -42,17 +49,13 @@ The core part of Chilen is the [backend](https://tpaau.github.io/chilen/chilen_b
 handles playlist management, library indexing, and audio playback. It was previously called
 `chilen_daemon`, but I have since renamed it to `chilen_backend` and changed it's purpose. The
 daemon had IPC functionality, which required me to maintain a separate API for no apparent gain to
-the actual music player app, so I just gave up on it. [^1]
-
-Another module is [`iced_m3`](https://tpaau.github.io/chilen/iced_m3/), a
-[Material Design 3](https://m3.material.io/) widget library for [iced](https://iced.rs/). It's
-currently a part of Chilen, but I might release it as a separate project somewhere in the future
-(if I feel like it).
+the actual music player app, so I just gave up on it. [^2]
 
 Some other projects were specifically created for Chilen but have since branched from the main
 project:
 - [`lrc_rs`](https://github.com/tpaau/lrc_rs) - Robust crate for working with synced lyrics content in the LRC format with support for the A2 extension (available on [crates.io](https://crates.io/crates/lrc_rs))
 - [`mru8_rs`](https://github.com/tpaau/m3u8_rs) - Library for working with M3U8 playlist files
+- [`iced_m3`](https://github.com/tpaau/iced_m3) - [Material Design 3](https://m3.material.io/) widget library for [iced](https://iced.rs/)
 
 <h2 id="roadmap"><a href="#roadmap">Roadmap</a></h2>
 
@@ -70,19 +73,17 @@ the same reason.
 
 <h2 id="get-involved"><a href="#get-involved">Get Involved</a></h2>
 
-I encourage you to try out Chilen yourself - it's fairly easy to compile, just `cargo build`. If
-you would like to get involved in the development process of Chilen, feel free to
-[reach out to me](/#contact)!
+I encourage you to try out Chilen yourself - you can
+[Install Chilen](https://github.com/tpaau/chilen#installation) from an official build if your
+distribution is currently supported or
+[build if from source](https://github.com/tpaau/chilen?tab=contributing-ov-file#building) (or, even
+better - make a community build for your distro and let me know about about it, I'll happily link it
+in the README in a separate section!). If you would like to get involved in the development process
+of Chilen in some other way, be sure to [let me know](/#contact)!
 
 Also consider starring the [repo]({{ page.repo }}) to let me know that you like the idea!
 
-
-{% include widgets/common/alert.html
-  type="note"
-  content="Chilen has only been tested on Linux so far. It may or may not work properly on other
-  systems. I plan on expanding platform support in the near future, so stay tuned."
-%}
-
 ---
 
-[^1]: See [my blogpost](2026/07/07/chilen-devlog-1.html) for details.
+[^1]: Chilen has only been tested on Linux so far. It may or may not work properly on other systems. I plan on expanding platform support in the near future, so stay tuned.
+[^2]: See [my blogpost](/2026/07/07/chilen-devlog-1.html) for details.

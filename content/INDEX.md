@@ -30,7 +30,7 @@ permalink: /
 
 <div align="center"><h2 id="tech-stack"><a href="#tech-stack">Tech Stack</a></h2></div>
 
-Tools and languages I'm skilled with.
+Tools and languages I'm skilled with. Kind of a dump but that's what you get :P
 
 <div id="tech-stack-div">
     <div id="tools" class="tile">
@@ -58,7 +58,7 @@ Tools and languages I'm skilled with.
 
 <div class="tile" id="contact-tile">
     <div id="contact-text">
-        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but you can also use Polish. Let's chat!</p>
+        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but Polish if fine too!</p>
     </div>
     <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3></div>
     <div class="profiles">
@@ -216,7 +216,7 @@ My interests. Apart from, you know, coding and the like.
 <div align="center"><h2 id="about-site" style="margin-bottom:var(--spacing-small);"><a href="#about-site">About This Site</a></h2></div>
 This site is built with [Jekyll](https://jekyllrb.com/) and deployed to
 [Cloudflare pages](https://pages.cloudflare.com/). Only first-party sources are used and no cookies
-are retained in your browser. Source code, can be found [here]({{ site.repo_url }}).
+are retained in your browser. Source code can be found [here]({{ site.repo_url }}).
 
 <div align="center"><h3 id="ai-disclosure" style="margin-bottom:var(--spacing-small);"><a href="#ai-disclosure">AI Disclosure</a></h3></div>
 How I use the so-called Generative AI in my work? Learn [here](/ai-disclosure).

@@ -1,15 +1,15 @@
 ---
-title: Gen AI disclosure
+title: AI disclosure
 layout: subpage
-description: Learn how I use generative AI in my creative work, code, and other projects.
+description: Learn how I use the so-called AI in my creative work, code, and other projects.
 permalink: /ai-disclosure
 ---
 
 <h1 id="ai-disclosure"><a href="#ai-disclosure">Gen "AI" disclosure</a></h1>
 
 I feel it is necessary for me to define how I use the so-called
-[Generative Artificial Intelligence](https://en.wikipedia.org/wiki/Generative_AI) so others know
-what to expect from my work.
+[Generative Artificial Intelligence](https://en.wikipedia.org/wiki/Generative_AI) so you people know
+what to expect from me and my work.
 
 {% include widgets/common/alert.html
   type="note"
@@ -28,13 +28,13 @@ therefore mustn't be treated as \"intelligent\" in any way."
 The term "AI" is so vague it's outrageous. If someone told me they use "AI", I wouldn't know whether
 they mean they chat with LLMs, generate images, create music with vocaloids, or even just use
 [upscaling or frame generation](https://www.nvidia.com/en-us/geforce/news/dlss-4-5-super-resolution-available-now/)
-in video games. The term is a buzzword meant to confuse everyone, so let me first define what **I**
+in video games. The term is a buzzword meant to confuse people, so let me first define what **I**
 consider to be "Generative AI".
 
 Generative AI **is**:
 - [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)
 - Image generation models
-- Text-to-speech models
+- Text-to-audio models
 - Video generation models
 
 Generative AI **isn't**:
@@ -44,7 +44,7 @@ Generative AI **isn't**:
 - Translation tools
 
 In short: Everything machine-learning-related that can produce human-like or realistic output is
-Gen AI. Not a very precise definition for sure, but you get the idea.
+Gen AI. Not a very precise definition for sure, but hopefully you get the idea.
 
 <h2 id="my-opinion-on-gen-ai"><a href="#my-opinion-on-gen-ai">My opinion on Gen AI</a></h2>
 

@@ -8,7 +8,7 @@ permalink: /blog
 # Blog
 
 Here you can find my long-form posts, mainly about projects I work on, my own experiences, thoughts,
-and interests.
+and interests. There's not much here yet so I guess we'll kind of see how it goes?
 
 For my other content (mainly project updates and shitposting), follow me either on
 [Mastodon]({{ site.mastodon_url }}) or [Bluesky]({{ site.bsky_url }}).
