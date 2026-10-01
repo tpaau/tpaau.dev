@@ -58,12 +58,13 @@ Tools and languages I'm skilled with. Kind of a dump but that's what you get :P
 
 <div class="tile" id="contact-tile">
     <div id="contact-text">
-        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but Polish if fine too!</p>
+        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, <a href="{{ site.twitter_url }}">Twitter</a> or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but Polish if fine too!</p>
     </div>
     <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3></div>
     <div class="profiles">
         <a href="{{ site.mastodon_url }}" class="icon-button primary" aria-label="Mastodon profile URL">{% include widgets/common/logo.html logo="mastodon" size=48 %}</a>
         <a href="{{ site.bsky_url }}" class="icon-button primary" aria-label="Bluesky profile URL">{% include widgets/common/logo.html logo="bluesky" size=48 %}</a>
+        <a href="{{ site.twitter_url }}" class="icon-button primary" aria-label="Twitter profile URL">{% include widgets/common/logo.html logo="twitter" size=48 %}</a>
         <a href="{{ site.codeberg_url }}" class="icon-button primary" aria-label="Codeberg profile URL">{% include widgets/common/logo.html logo="codeberg" size=48 %}</a>
         <a href="{{ site.github_url }}" class="icon-button primary" aria-label="GitHub profile URL">{% include widgets/common/logo.html logo="github" size=48 %}</a>
     </div>
