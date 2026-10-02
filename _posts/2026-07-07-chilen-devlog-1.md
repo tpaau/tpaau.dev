@@ -59,7 +59,7 @@ I plan to go with [Material Design 3](https://m3.material.io/) for the UI in the
 currently I'm just testing things out.
 
 If you're interested in the future development of this incredible project, consider
-[following me on Mastodon](https://m3.material.io/) or
+[following me on Mastodon]({{ site.mastodon_url }}) or
 [subscribing to my RSS feed](/feed.xml).
 
 Have a wonderful day!
