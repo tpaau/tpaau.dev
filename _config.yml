@@ -15,6 +15,7 @@ mastodon_url: https://mastodon.social/@tpaau17db
 bsky_url: https://bsky.app/profile/tpaau.bsky.social
 repo_url: https://github.com/tpaau/tpaau.dev
 twitter_url: https://x.com/tpaaudev
+signal_username: tpaau.14
 issue_report_url: https://codeberg.org/tpaau/pages/issues/new
 key_fingerprint: 25EC D687 A17E 5FA9 F432  2F63 33BA DC0B FFD7 4241
 publickey: |

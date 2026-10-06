@@ -58,7 +58,8 @@ Tools and languages I'm skilled with. Kind of a dump but that's what you get :P
 
 <div class="tile" id="contact-tile">
     <div id="contact-text">
-        <p>You can reach out to me either on <a href="{{ site.mastodon_url }}">Mastodon</a>, <a href="{{ site.bluesky_url }}">Bluesky</a>, <a href="{{ site.twitter_url }}">Twitter</a> or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but Polish if fine too!</p>
+        <p>You can reach out to me on Signal, any of my social profiles or <a href="mailto:{{ site.mail }}">via email</a>. English is my preferred language for technical stuff, but Polish if fine too!</p>
+        <p>My Signal username: <code>{{ site.signal_username }}</code></p>
     </div>
     <div align="center"><h3 style="margin-bottom:var(--spacing-small);">Public Profiles</h3></div>
     <div class="profiles">
